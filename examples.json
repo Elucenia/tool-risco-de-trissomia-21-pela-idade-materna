@@ -1,0 +1,53 @@
+[
+  {
+    "label": "35 anos: e^0,6289 = 1,875; 4,211 ÷ 2,875 = 1,464; e^5,866 = 352,7 → 1 em 354",
+    "input": {
+      "idade": 35
+    },
+    "expected": {
+      "raw": {
+        "n": 353.7
+      },
+      "tol": 1,
+      "main": "1 em 354",
+      "level": "info"
+    },
+    "originalInput": {
+      "idade": 35
+    },
+    "expandedZeroOptions": []
+  },
+  {
+    "label": "40 anos: e^−0,7811 = 0,4579; 4,211 ÷ 1,4579 = 2,888; e^4,442 = 84,9 → 1 em 86",
+    "input": {
+      "idade": 40
+    },
+    "expected": {
+      "raw": {
+        "n": 85.91
+      },
+      "tol": 0.5,
+      "main": "1 em 86"
+    },
+    "originalInput": {
+      "idade": 40
+    },
+    "expandedZeroOptions": []
+  },
+  {
+    "label": "25 anos: e^3,4489 = 31,46; 4,211 ÷ 32,46 = 0,1297; e^7,2003 = 1.339,8 → 1 em 1.341",
+    "input": {
+      "idade": 25
+    },
+    "expected": {
+      "raw": {
+        "n": 1340.8
+      },
+      "tol": 2
+    },
+    "originalInput": {
+      "idade": 25
+    },
+    "expandedZeroOptions": []
+  }
+]
