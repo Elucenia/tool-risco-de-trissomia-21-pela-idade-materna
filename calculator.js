@@ -1,11 +1,11 @@
-/* tool-risco-de-trissomia-21-pela-idade-materna · Elucenia · https://github.com/Elucenia/tool-risco-de-trissomia-21-pela-idade-materna
-   Copyright (c) 2026 Elucenia · Felipe Guedes (fgxdev.com). Licensed under the Apache License 2.0: keep this notice and the NOTICE file, and mark your changes.
+/* tool-risco-de-trissomia-21-pela-idade-materna · ELUCENIA · https://github.com/Elucenia/tool-risco-de-trissomia-21-pela-idade-materna
+   Copyright (c) 2026 ELUCENIA · Felipe Guedes (fgxdev.com). Licensed under the Apache License 2.0: keep this notice and the NOTICE file, and mark your changes.
    Standalone integration. Package metadata and rights: README.md. */
 (function(root){'use strict';
 function freeze(value){if(value&&typeof value==='object'){for(const item of Object.values(value))freeze(item);Object.freeze(value);}return value;}
 const TOOL=freeze({"id":"risco-de-trissomia-21-pela-idade-materna","title":"Risco de síndrome de Down pela idade materna","fields":[["idade","Idade materna na data provável do parto","num",{"min":15,"max":50,"step":0.1,"unit":"anos","ph":"35"}]],"config":null,"reviewStatus":"needs-review","clinicalValidation":"not-performed"});
 const window={};
-/* Elucenia arithmetic registry. No DOM access, storage, telemetry or network requests. */
+/* ELUCENIA arithmetic registry. No DOM access, storage, telemetry or network requests. */
 (function(root){
   'use strict';
   const CALC={fn:Object.create(null)};
