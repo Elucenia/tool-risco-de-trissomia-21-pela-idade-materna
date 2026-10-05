@@ -1,0 +1,651 @@
+{
+  "schema": "elucenia-native-tool-actual-r6-local-HTTP-subset-r5",
+  "id": "risco-de-trissomia-21-pela-idade-materna",
+  "sourceReceipt": {
+    "file": "reports/review-20261005-completion/deploy-lock/r6-all-calculators-http-results.json",
+    "bytes": 7105396,
+    "sha256": "c0b1e4dc320ce807e78c0444e629c1269b545b6e2ac87c265d896073d8c34ecb"
+  },
+  "servedBuildId": "jN-2wbRrarMjYPwdPnRHh",
+  "checker": {
+    "file": "reports/review-20261005-completion/deploy-lock/verify-r6-all-calculators-http.cjs",
+    "sha256": "92411a9e01fe36e1bf380c3336f2171bdb523a02ff09683da75927b12b33b3fa",
+    "bytes": 20735
+  },
+  "health": {
+    "url": "http://127.0.0.1:3067/api/health",
+    "startedAt": "2026-10-05T17:35:43.039Z",
+    "status": 200,
+    "headers": {
+      "contentType": "application/json",
+      "retryAfter": null,
+      "cacheControl": "no-store",
+      "nosniff": "nosniff"
+    },
+    "body": {
+      "status": "ok",
+      "application": "ELUCENIA",
+      "framework": "Next.js",
+      "version": "1.0.0"
+    },
+    "responseSha256": "65f95645e7826371eb2d9d3f96e0fed52ea4b88c77203f0cf2511769e57cd108",
+    "bytes": 80,
+    "elapsedMs": 27.345699999999994
+  },
+  "identity": {
+    "url": "http://127.0.0.1:3067/_next/data/jN-2wbRrarMjYPwdPnRHh/en/tools.json",
+    "startedAt": "2026-10-05T17:35:43.068Z",
+    "status": 200,
+    "headers": {
+      "contentType": "application/json; charset=utf-8",
+      "retryAfter": null,
+      "cacheControl": "s-maxage=31536000",
+      "nosniff": "nosniff"
+    },
+    "responseSha256": "404601e2c283a588a2f41af4feb5113d1993f76cc22f73a7b8ef4f5d17a82fa8",
+    "bytes": 103853,
+    "elapsedMs": 14.542600000000007,
+    "semanticMatchWithCompiledCatalog": true
+  },
+  "sourceCalculator": {
+    "file": "deliveries/elucenia-next-hostinger-r6/private/tool-code/risco-de-trissomia-21-pela-idade-materna/calculator.js",
+    "sha256": "54270cf85e821ad063f2b858acfa2d5d71e5e88c5d31b89a188566b8299cbc94",
+    "bytes": 4842
+  },
+  "sourceCalculatorMatchesCurrentCandidate": true,
+  "toolStatus": {
+    "cases": 3,
+    "replayed": 3,
+    "passed": 3,
+    "failed": 0,
+    "status": "passed"
+  },
+  "cases": [
+    {
+      "id": "risco-de-trissomia-21-pela-idade-materna",
+      "kind": "native-source-reference",
+      "index": 0,
+      "name": "35 anos: e^0,6289 = 1,875; 4,211 ÷ 2,875 = 1,464; e^5,866 = 352,7 → 1 em 354",
+      "originalInput": {
+        "idade": 35
+      },
+      "input": {
+        "idade": 35
+      },
+      "amendments": [],
+      "expected": {
+        "raw": {
+          "n": 353.7
+        },
+        "tol": 1,
+        "main": "1 em 354",
+        "level": "info"
+      },
+      "recordedResult": {
+        "main": [
+          "1 em 354",
+          "nascidos vivos"
+        ],
+        "label": "Risco de síndrome de Down ao nascimento pela idade materna",
+        "raw": {
+          "risco": 0.002827461702243136,
+          "n": 353.6741096109846
+        }
+      },
+      "provenance": {
+        "bank": {
+          "file": "reports/review-20261003/source-cases-audit.json",
+          "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3",
+          "bytes": 885399
+        },
+        "canonical": {
+          "file": "deliveries/elucenia-next-hostinger-r6/private/canonical-medical-tools.json",
+          "sha256": "988c58b5409ecc0df7e05193d88c7df930af9ce187b0688534a31f6d627ee4ad",
+          "bytes": 29045565
+        },
+        "scope": "Existing recorded source expectations and precise source-audit transport baseline; no newly derived independent oracle"
+      },
+      "request": {
+        "method": "POST",
+        "url": "http://127.0.0.1:3067/api/tools/risco-de-trissomia-21-pela-idade-materna/calculate",
+        "origin": "http://127.0.0.1:3067",
+        "payload": {
+          "input": {
+            "idade": 35
+          }
+        }
+      },
+      "attempts": [
+        {
+          "url": "http://127.0.0.1:3067/api/tools/risco-de-trissomia-21-pela-idade-materna/calculate",
+          "startedAt": "2026-10-05T17:39:40.262Z",
+          "status": 200,
+          "headers": {
+            "contentType": "application/json; charset=utf-8",
+            "retryAfter": null,
+            "cacheControl": "no-store",
+            "nosniff": "nosniff"
+          },
+          "body": {
+            "result": {
+              "id": "risco-de-trissomia-21-pela-idade-materna",
+              "main": [
+                "1 em 354",
+                "nascidos vivos"
+              ],
+              "label": "Risco de síndrome de Down ao nascimento pela idade materna",
+              "raw": {
+                "risco": 0.002827461702243136,
+                "n": 353.6741096109846
+              },
+              "clinicalValidation": "not-performed"
+            }
+          },
+          "responseSha256": "fa876aacc73003b2742a91bcb2ed09b539096dddf63930380faf19b316e6e4d5",
+          "bytes": 263,
+          "elapsedMs": 4.450299999996787
+        }
+      ],
+      "observed": {
+        "url": "http://127.0.0.1:3067/api/tools/risco-de-trissomia-21-pela-idade-materna/calculate",
+        "startedAt": "2026-10-05T17:39:40.262Z",
+        "status": 200,
+        "headers": {
+          "contentType": "application/json; charset=utf-8",
+          "retryAfter": null,
+          "cacheControl": "no-store",
+          "nosniff": "nosniff"
+        },
+        "body": {
+          "result": {
+            "id": "risco-de-trissomia-21-pela-idade-materna",
+            "main": [
+              "1 em 354",
+              "nascidos vivos"
+            ],
+            "label": "Risco de síndrome de Down ao nascimento pela idade materna",
+            "raw": {
+              "risco": 0.002827461702243136,
+              "n": 353.6741096109846
+            },
+            "clinicalValidation": "not-performed"
+          }
+        },
+        "responseSha256": "fa876aacc73003b2742a91bcb2ed09b539096dddf63930380faf19b316e6e4d5",
+        "bytes": 263,
+        "elapsedMs": 4.450299999996787
+      },
+      "evaluation": {
+        "checks": [
+          {
+            "at": "status",
+            "expected": 200,
+            "obtained": 200,
+            "passed": true
+          },
+          {
+            "at": "result-object",
+            "expected": true,
+            "obtained": true,
+            "passed": true
+          },
+          {
+            "at": "result.main",
+            "expected": "1 em 354",
+            "obtained": "1 em 354",
+            "scope": "Recorded source reference",
+            "passed": true
+          },
+          {
+            "at": "result.raw.n",
+            "expected": 353.7,
+            "obtained": 353.6741096109846,
+            "tolerance": 1,
+            "difference": 0.025890389015387427,
+            "scope": "Recorded rounded source reference",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.risco",
+            "expected": 0.002827461702243136,
+            "obtained": 0.002827461702243136,
+            "tolerance": 1e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.n",
+            "expected": 353.6741096109846,
+            "obtained": 353.6741096109846,
+            "tolerance": 3.536741096109846e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main.length",
+            "expected": 2,
+            "obtained": 2,
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[0]",
+            "expected": "1 em 354",
+            "obtained": "1 em 354",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[1]",
+            "expected": "nascidos vivos",
+            "obtained": "nascidos vivos",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          }
+        ],
+        "notCompared": [
+          {
+            "key": "level",
+            "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+          }
+        ]
+      },
+      "status": "passed",
+      "error": null
+    },
+    {
+      "id": "risco-de-trissomia-21-pela-idade-materna",
+      "kind": "native-source-reference",
+      "index": 1,
+      "name": "40 anos: e^−0,7811 = 0,4579; 4,211 ÷ 1,4579 = 2,888; e^4,442 = 84,9 → 1 em 86",
+      "originalInput": {
+        "idade": 40
+      },
+      "input": {
+        "idade": 40
+      },
+      "amendments": [],
+      "expected": {
+        "raw": {
+          "n": 85.91
+        },
+        "tol": 0.5,
+        "main": "1 em 86"
+      },
+      "recordedResult": {
+        "main": [
+          "1 em 86",
+          "nascidos vivos"
+        ],
+        "label": "Risco de síndrome de Down ao nascimento pela idade materna",
+        "raw": {
+          "risco": 0.011640378832936804,
+          "n": 85.90785698232344
+        }
+      },
+      "provenance": {
+        "bank": {
+          "file": "reports/review-20261003/source-cases-audit.json",
+          "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3",
+          "bytes": 885399
+        },
+        "canonical": {
+          "file": "deliveries/elucenia-next-hostinger-r6/private/canonical-medical-tools.json",
+          "sha256": "988c58b5409ecc0df7e05193d88c7df930af9ce187b0688534a31f6d627ee4ad",
+          "bytes": 29045565
+        },
+        "scope": "Existing recorded source expectations and precise source-audit transport baseline; no newly derived independent oracle"
+      },
+      "request": {
+        "method": "POST",
+        "url": "http://127.0.0.1:3067/api/tools/risco-de-trissomia-21-pela-idade-materna/calculate",
+        "origin": "http://127.0.0.1:3067",
+        "payload": {
+          "input": {
+            "idade": 40
+          }
+        }
+      },
+      "attempts": [
+        {
+          "url": "http://127.0.0.1:3067/api/tools/risco-de-trissomia-21-pela-idade-materna/calculate",
+          "startedAt": "2026-10-05T17:39:40.571Z",
+          "status": 200,
+          "headers": {
+            "contentType": "application/json; charset=utf-8",
+            "retryAfter": null,
+            "cacheControl": "no-store",
+            "nosniff": "nosniff"
+          },
+          "body": {
+            "result": {
+              "id": "risco-de-trissomia-21-pela-idade-materna",
+              "main": [
+                "1 em 86",
+                "nascidos vivos"
+              ],
+              "label": "Risco de síndrome de Down ao nascimento pela idade materna",
+              "raw": {
+                "risco": 0.011640378832936804,
+                "n": 85.90785698232344
+              },
+              "clinicalValidation": "not-performed"
+            }
+          },
+          "responseSha256": "7f3b29811599e8a51ad4a48d4b202e6607ca4e762c949d799917dd4d74612fd3",
+          "bytes": 262,
+          "elapsedMs": 3.4943999999959487
+        }
+      ],
+      "observed": {
+        "url": "http://127.0.0.1:3067/api/tools/risco-de-trissomia-21-pela-idade-materna/calculate",
+        "startedAt": "2026-10-05T17:39:40.571Z",
+        "status": 200,
+        "headers": {
+          "contentType": "application/json; charset=utf-8",
+          "retryAfter": null,
+          "cacheControl": "no-store",
+          "nosniff": "nosniff"
+        },
+        "body": {
+          "result": {
+            "id": "risco-de-trissomia-21-pela-idade-materna",
+            "main": [
+              "1 em 86",
+              "nascidos vivos"
+            ],
+            "label": "Risco de síndrome de Down ao nascimento pela idade materna",
+            "raw": {
+              "risco": 0.011640378832936804,
+              "n": 85.90785698232344
+            },
+            "clinicalValidation": "not-performed"
+          }
+        },
+        "responseSha256": "7f3b29811599e8a51ad4a48d4b202e6607ca4e762c949d799917dd4d74612fd3",
+        "bytes": 262,
+        "elapsedMs": 3.4943999999959487
+      },
+      "evaluation": {
+        "checks": [
+          {
+            "at": "status",
+            "expected": 200,
+            "obtained": 200,
+            "passed": true
+          },
+          {
+            "at": "result-object",
+            "expected": true,
+            "obtained": true,
+            "passed": true
+          },
+          {
+            "at": "result.main",
+            "expected": "1 em 86",
+            "obtained": "1 em 86",
+            "scope": "Recorded source reference",
+            "passed": true
+          },
+          {
+            "at": "result.raw.n",
+            "expected": 85.91,
+            "obtained": 85.90785698232344,
+            "tolerance": 0.5,
+            "difference": 0.0021430176765591114,
+            "scope": "Recorded rounded source reference",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.risco",
+            "expected": 0.011640378832936804,
+            "obtained": 0.011640378832936804,
+            "tolerance": 1e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.n",
+            "expected": 85.90785698232344,
+            "obtained": 85.90785698232344,
+            "tolerance": 1e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main.length",
+            "expected": 2,
+            "obtained": 2,
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[0]",
+            "expected": "1 em 86",
+            "obtained": "1 em 86",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[1]",
+            "expected": "nascidos vivos",
+            "obtained": "nascidos vivos",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          }
+        ],
+        "notCompared": []
+      },
+      "status": "passed",
+      "error": null
+    },
+    {
+      "id": "risco-de-trissomia-21-pela-idade-materna",
+      "kind": "native-source-reference",
+      "index": 2,
+      "name": "25 anos: e^3,4489 = 31,46; 4,211 ÷ 32,46 = 0,1297; e^7,2003 = 1.339,8 → 1 em 1.341",
+      "originalInput": {
+        "idade": 25
+      },
+      "input": {
+        "idade": 25
+      },
+      "amendments": [],
+      "expected": {
+        "raw": {
+          "n": 1340.8
+        },
+        "tol": 2
+      },
+      "recordedResult": {
+        "main": [
+          "1 em 1.341",
+          "nascidos vivos"
+        ],
+        "label": "Risco de síndrome de Down ao nascimento pela idade materna",
+        "raw": {
+          "risco": 0.000745813353167699,
+          "n": 1340.8180421451186
+        }
+      },
+      "provenance": {
+        "bank": {
+          "file": "reports/review-20261003/source-cases-audit.json",
+          "sha256": "1e609b8c90f6b7fef933d748f3ebd59836d4d06fe7b7e07ced569756091408d3",
+          "bytes": 885399
+        },
+        "canonical": {
+          "file": "deliveries/elucenia-next-hostinger-r6/private/canonical-medical-tools.json",
+          "sha256": "988c58b5409ecc0df7e05193d88c7df930af9ce187b0688534a31f6d627ee4ad",
+          "bytes": 29045565
+        },
+        "scope": "Existing recorded source expectations and precise source-audit transport baseline; no newly derived independent oracle"
+      },
+      "request": {
+        "method": "POST",
+        "url": "http://127.0.0.1:3067/api/tools/risco-de-trissomia-21-pela-idade-materna/calculate",
+        "origin": "http://127.0.0.1:3067",
+        "payload": {
+          "input": {
+            "idade": 25
+          }
+        }
+      },
+      "attempts": [
+        {
+          "url": "http://127.0.0.1:3067/api/tools/risco-de-trissomia-21-pela-idade-materna/calculate",
+          "startedAt": "2026-10-05T17:39:40.884Z",
+          "status": 200,
+          "headers": {
+            "contentType": "application/json; charset=utf-8",
+            "retryAfter": null,
+            "cacheControl": "no-store",
+            "nosniff": "nosniff"
+          },
+          "body": {
+            "result": {
+              "id": "risco-de-trissomia-21-pela-idade-materna",
+              "main": [
+                "1 em 1.341",
+                "nascidos vivos"
+              ],
+              "label": "Risco de síndrome de Down ao nascimento pela idade materna",
+              "raw": {
+                "risco": 0.000745813353167699,
+                "n": 1340.8180421451186
+              },
+              "clinicalValidation": "not-performed"
+            }
+          },
+          "responseSha256": "1ed4209dfc8701edfc05823350118b76c607cac2fac8c6486f1216186f129559",
+          "bytes": 266,
+          "elapsedMs": 3.067300000024261
+        }
+      ],
+      "observed": {
+        "url": "http://127.0.0.1:3067/api/tools/risco-de-trissomia-21-pela-idade-materna/calculate",
+        "startedAt": "2026-10-05T17:39:40.884Z",
+        "status": 200,
+        "headers": {
+          "contentType": "application/json; charset=utf-8",
+          "retryAfter": null,
+          "cacheControl": "no-store",
+          "nosniff": "nosniff"
+        },
+        "body": {
+          "result": {
+            "id": "risco-de-trissomia-21-pela-idade-materna",
+            "main": [
+              "1 em 1.341",
+              "nascidos vivos"
+            ],
+            "label": "Risco de síndrome de Down ao nascimento pela idade materna",
+            "raw": {
+              "risco": 0.000745813353167699,
+              "n": 1340.8180421451186
+            },
+            "clinicalValidation": "not-performed"
+          }
+        },
+        "responseSha256": "1ed4209dfc8701edfc05823350118b76c607cac2fac8c6486f1216186f129559",
+        "bytes": 266,
+        "elapsedMs": 3.067300000024261
+      },
+      "evaluation": {
+        "checks": [
+          {
+            "at": "status",
+            "expected": 200,
+            "obtained": 200,
+            "passed": true
+          },
+          {
+            "at": "result-object",
+            "expected": true,
+            "obtained": true,
+            "passed": true
+          },
+          {
+            "at": "result.raw.n",
+            "expected": 1340.8,
+            "obtained": 1340.8180421451186,
+            "tolerance": 2,
+            "difference": 0.018042145118670305,
+            "scope": "Recorded rounded source reference",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.risco",
+            "expected": 0.000745813353167699,
+            "obtained": 0.000745813353167699,
+            "tolerance": 1e-10,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.raw.n",
+            "expected": 1340.8180421451186,
+            "obtained": 1340.8180421451186,
+            "tolerance": 1.3408180421451187e-9,
+            "difference": 0,
+            "scope": "Existing precise source-audit transport regression, not independent formula validation",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main.length",
+            "expected": 2,
+            "obtained": 2,
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[0]",
+            "expected": "1 em 1.341",
+            "obtained": "1 em 1.341",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          },
+          {
+            "at": "regression.result.main[1]",
+            "expected": "nascidos vivos",
+            "obtained": "nascidos vivos",
+            "scope": "Existing source-audit public representation regression",
+            "passed": true
+          }
+        ],
+        "notCompared": []
+      },
+      "status": "passed",
+      "error": null
+    }
+  ],
+  "scope": {
+    "syntheticDataOnly": true,
+    "applicationModuleImports": 0,
+    "browserInteractions": 0,
+    "newIndependentOracles": 0,
+    "nativeSourceReferenceCases": 882,
+    "additionalDecimalCases": 4,
+    "predictProstateHasSeparateFullCurveOracleReplay": true,
+    "clinicalApproval": false,
+    "professionalLanguageApproval": false,
+    "populationValidation": false,
+    "hostingerDeploymentVerified": false,
+    "actualHTTPExecution": true,
+    "standaloneNodeServer": true,
+    "nodeVersion": "v22.18.0",
+    "noNewClinicalOrProfessionalApproval": true,
+    "pubmedResourceIsNotCalculatorAndNotIncludedIn222": true,
+    "description": "All 882 existing reference cases across the 218 native calculators plus four existing Decimal50 examples, executed via HTTP against the final local r6 standalone build. Raw precise source-audit comparisons are transport regressions, not independent clinical or full-method validation."
+  },
+  "clinicalApproval": false,
+  "professionalLanguageApproval": false,
+  "newIndependentOracle": false,
+  "actualBrowserJourney": false,
+  "hostingerDeploymentVerified": false
+}
