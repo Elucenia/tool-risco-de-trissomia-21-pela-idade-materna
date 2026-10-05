@@ -1,0 +1,290 @@
+{
+  "id": "risco-de-trissomia-21-pela-idade-materna",
+  "at": "2026-10-05T17:30:05.439Z",
+  "adapter": {
+    "file": "apps/website/private/tool-code/risco-de-trissomia-21-pela-idade-materna/calculator.js",
+    "bytes": 4842,
+    "sha256": "54270cf85e821ad063f2b858acfa2d5d71e5e88c5d31b89a188566b8299cbc94"
+  },
+  "cases": [
+    {
+      "name": "35 anos: e^0,6289 = 1,875; 4,211 ÷ 2,875 = 1,464; e^5,866 = 352,7 → 1 em 354",
+      "input": {
+        "idade": 35
+      },
+      "obtained": {
+        "id": "risco-de-trissomia-21-pela-idade-materna",
+        "main": [
+          "1 em 354",
+          "nascidos vivos"
+        ],
+        "label": "Risco de síndrome de Down ao nascimento pela idade materna",
+        "raw": {
+          "risco": 0.002827461702243136,
+          "n": 353.6741096109846
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "checks": [
+        {
+          "at": "status",
+          "expected": 200,
+          "obtained": 200,
+          "passed": true
+        },
+        {
+          "at": "result-object",
+          "expected": true,
+          "obtained": true,
+          "passed": true
+        },
+        {
+          "at": "result.main",
+          "expected": "1 em 354",
+          "obtained": "1 em 354",
+          "scope": "Recorded source reference",
+          "passed": true
+        },
+        {
+          "at": "result.raw.n",
+          "expected": 353.7,
+          "obtained": 353.6741096109846,
+          "tolerance": 1,
+          "difference": 0.025890389015387427,
+          "scope": "Recorded rounded source reference",
+          "passed": true
+        },
+        {
+          "at": "regression.result.raw.risco",
+          "expected": 0.002827461702243136,
+          "obtained": 0.002827461702243136,
+          "tolerance": 1e-10,
+          "difference": 0,
+          "scope": "Existing precise source-audit transport regression, not independent formula validation",
+          "passed": true
+        },
+        {
+          "at": "regression.result.raw.n",
+          "expected": 353.6741096109846,
+          "obtained": 353.6741096109846,
+          "tolerance": 3.536741096109846e-10,
+          "difference": 0,
+          "scope": "Existing precise source-audit transport regression, not independent formula validation",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main.length",
+          "expected": 2,
+          "obtained": 2,
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main[0]",
+          "expected": "1 em 354",
+          "obtained": "1 em 354",
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main[1]",
+          "expected": "nascidos vivos",
+          "obtained": "nascidos vivos",
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        }
+      ],
+      "notCompared": [
+        {
+          "key": "level",
+          "reason": "Historical interpretative/explanatory expectation outside the bounded API and outside clinical approval"
+        }
+      ],
+      "status": "passed"
+    },
+    {
+      "name": "40 anos: e^−0,7811 = 0,4579; 4,211 ÷ 1,4579 = 2,888; e^4,442 = 84,9 → 1 em 86",
+      "input": {
+        "idade": 40
+      },
+      "obtained": {
+        "id": "risco-de-trissomia-21-pela-idade-materna",
+        "main": [
+          "1 em 86",
+          "nascidos vivos"
+        ],
+        "label": "Risco de síndrome de Down ao nascimento pela idade materna",
+        "raw": {
+          "risco": 0.011640378832936804,
+          "n": 85.90785698232344
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "checks": [
+        {
+          "at": "status",
+          "expected": 200,
+          "obtained": 200,
+          "passed": true
+        },
+        {
+          "at": "result-object",
+          "expected": true,
+          "obtained": true,
+          "passed": true
+        },
+        {
+          "at": "result.main",
+          "expected": "1 em 86",
+          "obtained": "1 em 86",
+          "scope": "Recorded source reference",
+          "passed": true
+        },
+        {
+          "at": "result.raw.n",
+          "expected": 85.91,
+          "obtained": 85.90785698232344,
+          "tolerance": 0.5,
+          "difference": 0.0021430176765591114,
+          "scope": "Recorded rounded source reference",
+          "passed": true
+        },
+        {
+          "at": "regression.result.raw.risco",
+          "expected": 0.011640378832936804,
+          "obtained": 0.011640378832936804,
+          "tolerance": 1e-10,
+          "difference": 0,
+          "scope": "Existing precise source-audit transport regression, not independent formula validation",
+          "passed": true
+        },
+        {
+          "at": "regression.result.raw.n",
+          "expected": 85.90785698232344,
+          "obtained": 85.90785698232344,
+          "tolerance": 1e-10,
+          "difference": 0,
+          "scope": "Existing precise source-audit transport regression, not independent formula validation",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main.length",
+          "expected": 2,
+          "obtained": 2,
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main[0]",
+          "expected": "1 em 86",
+          "obtained": "1 em 86",
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main[1]",
+          "expected": "nascidos vivos",
+          "obtained": "nascidos vivos",
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        }
+      ],
+      "notCompared": [],
+      "status": "passed"
+    },
+    {
+      "name": "25 anos: e^3,4489 = 31,46; 4,211 ÷ 32,46 = 0,1297; e^7,2003 = 1.339,8 → 1 em 1.341",
+      "input": {
+        "idade": 25
+      },
+      "obtained": {
+        "id": "risco-de-trissomia-21-pela-idade-materna",
+        "main": [
+          "1 em 1.341",
+          "nascidos vivos"
+        ],
+        "label": "Risco de síndrome de Down ao nascimento pela idade materna",
+        "raw": {
+          "risco": 0.000745813353167699,
+          "n": 1340.8180421451186
+        },
+        "clinicalValidation": "not-performed"
+      },
+      "checks": [
+        {
+          "at": "status",
+          "expected": 200,
+          "obtained": 200,
+          "passed": true
+        },
+        {
+          "at": "result-object",
+          "expected": true,
+          "obtained": true,
+          "passed": true
+        },
+        {
+          "at": "result.raw.n",
+          "expected": 1340.8,
+          "obtained": 1340.8180421451186,
+          "tolerance": 2,
+          "difference": 0.018042145118670305,
+          "scope": "Recorded rounded source reference",
+          "passed": true
+        },
+        {
+          "at": "regression.result.raw.risco",
+          "expected": 0.000745813353167699,
+          "obtained": 0.000745813353167699,
+          "tolerance": 1e-10,
+          "difference": 0,
+          "scope": "Existing precise source-audit transport regression, not independent formula validation",
+          "passed": true
+        },
+        {
+          "at": "regression.result.raw.n",
+          "expected": 1340.8180421451186,
+          "obtained": 1340.8180421451186,
+          "tolerance": 1.3408180421451187e-9,
+          "difference": 0,
+          "scope": "Existing precise source-audit transport regression, not independent formula validation",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main.length",
+          "expected": 2,
+          "obtained": 2,
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main[0]",
+          "expected": "1 em 1.341",
+          "obtained": "1 em 1.341",
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        },
+        {
+          "at": "regression.result.main[1]",
+          "expected": "nascidos vivos",
+          "obtained": "nascidos vivos",
+          "scope": "Existing source-audit public representation regression",
+          "passed": true
+        }
+      ],
+      "notCompared": [],
+      "status": "passed"
+    }
+  ],
+  "refusals": {
+    "passed": 14,
+    "failed": 0,
+    "failures": []
+  },
+  "sourceNodeBrowserVmParity": true,
+  "actualBrowserDomVerified": false,
+  "newIndependentOracle": false,
+  "currentActualR6HttpEvidence": "pending",
+  "clinicalApproval": false,
+  "professionalLanguageApproval": false
+}

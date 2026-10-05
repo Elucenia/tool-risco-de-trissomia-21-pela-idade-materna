@@ -1,0 +1,61 @@
+<!-- ELUCENIA technical documentation · risco-de-trissomia-21-pela-idade-materna · ja · no clinical/professional/rights approval -->
+
+# 母体年齢によるダウン症候群のリスク
+
+[条件・出典・許諾](https://elucenia.org/ja/tools/risco-de-trissomia-21-pela-idade-materna)
+
+## 使い方
+
+ポータルでツールを使用するか、ローカルHTTPサーバー経由でindex.htmlを開いてください。言語を選択し、項目を入力して計算してください。
+
+## 入力項目と単位
+
+### 出産予定日の母体年齢
+
+`idade`
+
+年 · 範囲: 15–50
+
+## 方法の版
+
+Morris–Mutton–Alberman 2002：英国イングランド/ウェールズ1989～1998生産児モデル、普遍的妊娠中リスクではない
+
+## 記載された計算式
+
+Morris, Mutton, Alberman (2002): リスク = 1 ÷ \[1 + e(7.330 − 4.211 ÷ (1 + e−0.282 × (年齢 − 37.23)))\]
+
+英国イングランド・ウェールズDown登録（1989～1998）のロジスティックモデル。スクリーニング・妊娠中断なしへ補正。
+
+## 限界・対象集団
+
+この式は、1989–1998年のイングランド・ウェールズのデータから、スクリーニングと選択的な妊娠中断がない場合を推定し、母体年齢別の生きて生まれた児のダウン症候群の有病割合を記述します。あらゆる妊娠週数でのリスクを示すものではなく、個人のスクリーニングや診断に代わるものでもありません。
+
+## 参考文献
+
+- [Morris JK, Mutton DE, Alberman E. Revised estimates of the maternal age specific live birth prevalence of Down's syndrome. J Med Screen, 2002.](https://doi.org/10.1136/jms.9.1.2)
+
+## 技術テストの再現
+
+このリポジトリのルートディレクトリでnode test.cjsを実行すると、記録された合成ケースを再実行できます。元の入力、期待結果、許容誤差は保持されています。技術テストは臨床的検証を意味しません。
+
+```sh
+node test.cjs
+```
+
+tool.jsonには出典、版、確認範囲が記録されています。examples.jsonには合成入力と期待結果が保持され、results.jsonには実際に得られた結果が記録されています。
+
+[記録・参考文献](../tool.json) · [JavaScriptコード](../calculator.js) · [参照ケース](../examples.json) · [results.json](../results.json)
+
+## 確認状況と使用条件
+
+独立した臨床レビューは実施されていません。
+
+このインターフェースは独自に作成した翻訳であり、公式版や認証済みの版ではありません。独立した臨床レビュー、専門家による言語レビュー、評価尺度等の権利許諾の確認は実施されていません。
+
+式または分類の結果です。解釈、対応、適用可能性は専門家による評価と選択した出典に依存します。
+
+## ライセンスと帰属表示
+
+Apache-2.0はELUCENIAのコードにのみ適用されます。評価尺度等、出版物、翻訳、データの権利は、それぞれの権利者に帰属します。LICENSEとNOTICEを保持してください。
+
+ELUCENIA · Felipe Guedes · Copyright © 2026

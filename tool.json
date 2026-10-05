@@ -3,13 +3,13 @@
     "id": "risco-de-trissomia-21-pela-idade-materna",
     "title": "Risco de síndrome de Down pela idade materna",
     "short": "Risco basal de trissomia 21 ao nascimento",
+    "desc": "Calcule o risco basal de síndrome de Down (trissomia 21) em nascidos vivos pela idade materna no parto, pelo modelo de Morris (2002).",
+    "lead": "Estima a prevalência de síndrome de Down em nascidos vivos conforme a idade materna na data do parto, o risco de partida usado no aconselhamento e no rastreamento pré-natal.",
+    "kind": "Calculadora",
     "spec": [
       "genetica-medica",
       "ginecologia-e-obstetricia"
     ],
-    "tier": 1,
-    "desc": "Calcule o risco basal de síndrome de Down (trissomia 21) em nascidos vivos pela idade materna no parto, pelo modelo de Morris (2002).",
-    "lead": "Estima a prevalência de síndrome de Down em nascidos vivos conforme a idade materna na data do parto, o risco de partida usado no aconselhamento e no rastreamento pré-natal.",
     "fields": [
       [
         "idade",
@@ -25,30 +25,6 @@
       ]
     ],
     "formula": "<p><strong>Morris, Mutton e Alberman (2002):</strong> risco = 1 ÷ [1 + e<sup>(7,330 − 4,211 ÷ (1 + e<sup>−0,282 × (idade − 37,23)</sup>))</sup>]</p><p>Modelo logístico ajustado aos dados do registro nacional de síndrome de Down da Inglaterra e do País de Gales (1989 a 1998), corrigidos para a ausência de rastreamento e interrupção.</p>",
-    "table": [
-      [
-        "Idade no parto",
-        "Risco ao nascimento (Morris 2002)"
-      ],
-      [
-        "25 anos",
-        "1 em 1.341"
-      ],
-      [
-        "35 anos",
-        "1 em 354"
-      ],
-      [
-        "40 anos",
-        "1 em 86"
-      ]
-    ],
-    "tips": [
-      "O risco é para o <strong>nascimento</strong>: no 1º e no 2º trimestres o risco é maior, porque parte das gestações com trissomia 21 termina em perda fetal espontânea.",
-      "A idade materna isolada é um rastreamento ruim: a maioria das crianças com síndrome de Down nasce de mães com menos de 35 anos. Ofereça rastreamento a todas as gestantes (combinado do 1º trimestre ou DNA fetal livre).",
-      "O rastreamento combinado (translucência nucal, PAPP-A e beta-hCG livre) parte deste risco basal e o multiplica pelas razões de verossimilhança dos marcadores.",
-      "Filho anterior com trissomia 21 livre aumenta o risco de recorrência (cerca de 1% acima do risco da idade); translocação robertsoniana balanceada em um dos pais muda totalmente o cálculo: encaminhe para aconselhamento genético."
-    ],
     "sources": [
       [
         "Morris JK, Mutton DE, Alberman E. Revised estimates of the maternal age specific live birth prevalence of Down's syndrome. J Med Screen, 2002.",
@@ -96,9 +72,6 @@
         }
       ]
     ],
-    "kind": "Calculadora",
-    "config": null,
-    "clinicalReview": "pending",
     "arithmeticTest": {
       "status": "passed",
       "testedAt": "2026-09-25",
@@ -107,17 +80,341 @@
       "failures": []
     },
     "independentArithmeticTest": {
-      "status": "not-tested",
-      "testedAt": null,
-      "total": 0,
-      "passed": 0,
-      "cases": []
+      "status": "passed",
+      "testedAt": "2026-10-04T21:50:52.606Z",
+      "total": 41,
+      "passed": 41,
+      "sourceRowCount": 41,
+      "uniqueApiInputCount": 41,
+      "sourceContextCount": 41,
+      "caseStorage": {
+        "mode": "complete-downloadable-bank-with-inline-subset",
+        "file": "independent-source-cases.json",
+        "sha256": "91c0e737067dcaf037373df02bab738596ed50751d3b5fc478aa11db946c3e3f",
+        "total": 41,
+        "bankRowCount": 41,
+        "uniqueApiInputCount": 41,
+        "sourceContextCount": 41,
+        "fullStoredSourceRows": 41,
+        "localRejectionContractCount": 0,
+        "excludedSourceObservationCount": 0,
+        "expectedEvidence": [
+          {
+            "file": "reports/review-20261003/seven-primary-independent-expectations-final35.json",
+            "sha256": "7fc110068db25fd0f4a5d2f53569d24fa93b6fa05ac3486d752814c33204e41e"
+          }
+        ],
+        "obtainedEvidence": {
+          "file": "reports/review-20261003/seven-primary-independent-source-check-final35.json",
+          "sha256": "dca93fed75cf2559c3ef39c581218fd9c4e604d0bbbcd787556bc8ef14590e85"
+        },
+        "packagingRequirement": "Copy every complete bank byte exactly. Rebind future source/edition/code amendments explicitly; no rounding/clinical/rights scope expansion."
+      },
+      "scope": "41 Decimal160 probability witnesses for the explicitly printed 2002 coefficient 0.282. The 2005 0.2815 correction is recorded separately and has not been applied.",
+      "sourceEvidence": {
+        "review": {
+          "file": "reports/review-20261003/seven-primary-source-review-final35.json",
+          "sha256": "030c9299a4eef7b89ff75601532949784448b173e52da8b014b56597b14eef48"
+        },
+        "reading": {
+          "id": "risco-de-trissomia-21-pela-idade-materna",
+          "currentMethodVersion": "Morris Mutton Alberman 2002:logístico inglês/galêsnascimentovivo 1989–1998; semrisco gestacional universal",
+          "currentMethodSource": "https://pubmed.ncbi.nlm.nih.gov/11943789/",
+          "recordBinding": {
+            "file": "reports/review-20261003/seven-primary-frozen-inputs-final35/selected-records/risco-de-trissomia-21-pela-idade-materna.json",
+            "sha256": "de8c7e4341e65773321b8ad6ccb40f5e7e6f43514e2d84d92f72b3076992fbe6"
+          },
+          "adapterBindings": [
+            {
+              "file": "apps/website/private/tool-code/risco-de-trissomia-21-pela-idade-materna/calculator.js",
+              "sha256": "54270cf85e821ad063f2b858acfa2d5d71e5e88c5d31b89a188566b8299cbc94",
+              "bytes": 4842,
+              "frozenFile": "reports/review-20261003/seven-primary-frozen-inputs-final35/apps/website/private/tool-code/risco-de-trissomia-21-pela-idade-materna/calculator.js",
+              "currentSha256": "54270cf85e821ad063f2b858acfa2d5d71e5e88c5d31b89a188566b8299cbc94"
+            },
+            {
+              "file": "apps/dashboard/private/tool-code/risco-de-trissomia-21-pela-idade-materna/calculator.js",
+              "sha256": "54270cf85e821ad063f2b858acfa2d5d71e5e88c5d31b89a188566b8299cbc94",
+              "bytes": 4842,
+              "frozenFile": "reports/review-20261003/seven-primary-frozen-inputs-final35/apps/dashboard/private/tool-code/risco-de-trissomia-21-pela-idade-materna/calculator.js",
+              "currentSha256": "54270cf85e821ad063f2b858acfa2d5d71e5e88c5d31b89a188566b8299cbc94"
+            },
+            {
+              "file": "apps/command-center/private/tool-code/risco-de-trissomia-21-pela-idade-materna/calculator.js",
+              "sha256": "54270cf85e821ad063f2b858acfa2d5d71e5e88c5d31b89a188566b8299cbc94",
+              "bytes": 4842,
+              "frozenFile": "reports/review-20261003/seven-primary-frozen-inputs-final35/apps/command-center/private/tool-code/risco-de-trissomia-21-pela-idade-materna/calculator.js",
+              "currentSha256": "54270cf85e821ad063f2b858acfa2d5d71e5e88c5d31b89a188566b8299cbc94"
+            }
+          ],
+          "ownSourceInputs": 41,
+          "observedAdapterRows": 123,
+          "sourceIds": [
+            "Morris2002-original",
+            "Morris2005-correction"
+          ],
+          "scope": "41 Decimal160 probability witnesses for the explicitly printed 2002 coefficient 0.282. The 2005 0.2815 correction is recorded separately and has not been applied.",
+          "status": "bounded2002-equation-confirmed; later-correction-needed-for2005-attribution",
+          "findings": [
+            {
+              "classification": "later-primary-correction-not-applied",
+              "beforeCoefficient": "0.282",
+              "corrected2005Coefficient": "0.2815",
+              "detail": "Current arithmetic matches printed 2002 edition, not the corrected 2005 equation. Preserve edition history and do not present as individual prenatal risk."
+            }
+          ],
+          "unchecked": [
+            "Individual/gestational risk and contemporary screening calibration"
+          ],
+          "clinicalApproval": "not-performed",
+          "professionalTranslationApproval": "not-performed",
+          "rightsApproval": "not-performed",
+          "fullMethodApproval": "not-performed"
+        },
+        "primarySources": []
+      },
+      "evidencePath": "reports/review-20261003/seven-primary-independent-source-check-final35.json",
+      "evidenceSha256": "dca93fed75cf2559c3ef39c581218fd9c4e604d0bbbcd787556bc8ef14590e85",
+      "independentPeer": {
+        "status": "pending-independent-package-peer",
+        "scope": "Western own primary derivation before imports and actual Node/VM/Chromium selected-math evidence; no new independent source rederivation claimed by this packaging preparation."
+      },
+      "implementations": [
+        {
+          "file": "apps/website/private/tool-code/risco-de-trissomia-21-pela-idade-materna/calculator.js",
+          "sha256": "54270cf85e821ad063f2b858acfa2d5d71e5e88c5d31b89a188566b8299cbc94"
+        },
+        {
+          "file": "apps/dashboard/private/tool-code/risco-de-trissomia-21-pela-idade-materna/calculator.js",
+          "sha256": "54270cf85e821ad063f2b858acfa2d5d71e5e88c5d31b89a188566b8299cbc94"
+        },
+        {
+          "file": "apps/command-center/private/tool-code/risco-de-trissomia-21-pela-idade-materna/calculator.js",
+          "sha256": "54270cf85e821ad063f2b858acfa2d5d71e5e88c5d31b89a188566b8299cbc94"
+        }
+      ],
+      "qualifications": [
+        "Individual/gestational risk and contemporary screening calibration",
+        "Source references/edition conflicts and raw parity/display observations preserved; no unscoped outputs or diagnosis/legal/forensic/follow-up decisions approved."
+      ],
+      "clinicalApproval": "not-performed",
+      "professionalLanguageApproval": "not-performed",
+      "sourceRightsApproval": "not-performed",
+      "fullMethodConformance": "not-performed",
+      "publicCandidateBankOmitted": true
+    },
+    "methodVersion": "Morris Mutton Alberman 2002:logístico inglês/galêsnascimentovivo 1989–1998; semrisco gestacional universal",
+    "implementationVersion": "risco-de-trissomia-21-pela-idade-materna@native-2026-10-03+54270cf85e82",
+    "currentMethodSource": "https://pubmed.ncbi.nlm.nih.gov/11943789/",
+    "versionEvidence": {
+      "status": "variant-and-source-edition-recorded",
+      "checkedAt": "2026-10-03",
+      "implementedVariant": "Morris, Mutton e Alberman (2002): risco = 1 ÷ [1 + e (7,330 − 4,211 ÷ (1 + e −0,282 × (idade − 37,23) )) ] Modelo logístico ajustado aos dados do registro nacional de síndrome de Down da Inglaterra e do País de Gales (1989 a 1998), corrigidos para a ausência de rastreamento e interrupção.",
+      "inputContract": {
+        "fields": [
+          {
+            "key": "idade",
+            "label": "Idade materna na data provável do parto",
+            "type": "num",
+            "min": 15,
+            "max": 50,
+            "unit": "anos",
+            "optional": false,
+            "options": null
+          }
+        ],
+        "hash": "7aa24a7caf6ebd3de08cc67eba0295218ad21a7eba3d5e57b2f3efbbfea4599e"
+      },
+      "sourceEditions": [
+        {
+          "citation": "Morris JK, Mutton DE, Alberman E. Revised estimates of the maternal age specific live birth prevalence of Down's syndrome. J Med Screen, 2002.",
+          "url": "https://doi.org/10.1136/jms.9.1.2",
+          "class": "primary-publication-abstract-or-metadata-read",
+          "publicationEditionConfirmed": true,
+          "fullTextRetrieved": false,
+          "formulaConformance": "not-assessed",
+          "publication": {
+            "title": "Revised estimates of the maternal age specific live birth prevalence of Down's syndrome.",
+            "year": "2002",
+            "firstPublicationDate": "2002-01-01",
+            "doi": "10.1136/jms.9.1.2",
+            "pmid": "11943789",
+            "journal": "Journal of medical screening",
+            "authors": "Morris JK, Mutton DE, Alberman E."
+          },
+          "primaryPublicationUrl": "https://pubmed.ncbi.nlm.nih.gov/11943789/",
+          "abstractAvailable": true,
+          "fullTextSha256": null,
+          "abstractSha256": "514aebb0e31d321b1650004acc5d43daf46640692589d3eae000a079be4c0ad4",
+          "matchedBy": "exact-DOI-or-PMID"
+        }
+      ],
+      "publicationEditionConfirmed": true,
+      "fullFormulaConformanceReviewed": false,
+      "formulaConformance": "Not established by bibliographic identity or automatic full-text retrieval; retain independent arithmetic and clinical review as separate evidence.",
+      "independentArithmetic": {
+        "status": "passed",
+        "testedAt": "2026-10-04T21:50:52.606Z",
+        "total": 41,
+        "passed": 41,
+        "sourceRowCount": 41,
+        "uniqueApiInputCount": 41,
+        "sourceContextCount": 41,
+        "caseStorage": {
+          "mode": "complete-downloadable-bank-with-inline-subset",
+          "file": "independent-source-cases.json",
+          "sha256": "91c0e737067dcaf037373df02bab738596ed50751d3b5fc478aa11db946c3e3f",
+          "total": 41,
+          "bankRowCount": 41,
+          "uniqueApiInputCount": 41,
+          "sourceContextCount": 41,
+          "fullStoredSourceRows": 41,
+          "localRejectionContractCount": 0,
+          "excludedSourceObservationCount": 0,
+          "expectedEvidence": [
+            {
+              "file": "reports/review-20261003/seven-primary-independent-expectations-final35.json",
+              "sha256": "7fc110068db25fd0f4a5d2f53569d24fa93b6fa05ac3486d752814c33204e41e"
+            }
+          ],
+          "obtainedEvidence": {
+            "file": "reports/review-20261003/seven-primary-independent-source-check-final35.json",
+            "sha256": "dca93fed75cf2559c3ef39c581218fd9c4e604d0bbbcd787556bc8ef14590e85"
+          },
+          "packagingRequirement": "Copy every complete bank byte exactly. Rebind future source/edition/code amendments explicitly; no rounding/clinical/rights scope expansion."
+        },
+        "scope": "41 Decimal160 probability witnesses for the explicitly printed 2002 coefficient 0.282. The 2005 0.2815 correction is recorded separately and has not been applied.",
+        "sourceEvidence": {
+          "review": {
+            "file": "reports/review-20261003/seven-primary-source-review-final35.json",
+            "sha256": "030c9299a4eef7b89ff75601532949784448b173e52da8b014b56597b14eef48"
+          },
+          "reading": {
+            "id": "risco-de-trissomia-21-pela-idade-materna",
+            "currentMethodVersion": "Morris Mutton Alberman 2002:logístico inglês/galêsnascimentovivo 1989–1998; semrisco gestacional universal",
+            "currentMethodSource": "https://pubmed.ncbi.nlm.nih.gov/11943789/",
+            "recordBinding": {
+              "file": "reports/review-20261003/seven-primary-frozen-inputs-final35/selected-records/risco-de-trissomia-21-pela-idade-materna.json",
+              "sha256": "de8c7e4341e65773321b8ad6ccb40f5e7e6f43514e2d84d92f72b3076992fbe6"
+            },
+            "adapterBindings": [
+              {
+                "file": "apps/website/private/tool-code/risco-de-trissomia-21-pela-idade-materna/calculator.js",
+                "sha256": "54270cf85e821ad063f2b858acfa2d5d71e5e88c5d31b89a188566b8299cbc94",
+                "bytes": 4842,
+                "frozenFile": "reports/review-20261003/seven-primary-frozen-inputs-final35/apps/website/private/tool-code/risco-de-trissomia-21-pela-idade-materna/calculator.js",
+                "currentSha256": "54270cf85e821ad063f2b858acfa2d5d71e5e88c5d31b89a188566b8299cbc94"
+              },
+              {
+                "file": "apps/dashboard/private/tool-code/risco-de-trissomia-21-pela-idade-materna/calculator.js",
+                "sha256": "54270cf85e821ad063f2b858acfa2d5d71e5e88c5d31b89a188566b8299cbc94",
+                "bytes": 4842,
+                "frozenFile": "reports/review-20261003/seven-primary-frozen-inputs-final35/apps/dashboard/private/tool-code/risco-de-trissomia-21-pela-idade-materna/calculator.js",
+                "currentSha256": "54270cf85e821ad063f2b858acfa2d5d71e5e88c5d31b89a188566b8299cbc94"
+              },
+              {
+                "file": "apps/command-center/private/tool-code/risco-de-trissomia-21-pela-idade-materna/calculator.js",
+                "sha256": "54270cf85e821ad063f2b858acfa2d5d71e5e88c5d31b89a188566b8299cbc94",
+                "bytes": 4842,
+                "frozenFile": "reports/review-20261003/seven-primary-frozen-inputs-final35/apps/command-center/private/tool-code/risco-de-trissomia-21-pela-idade-materna/calculator.js",
+                "currentSha256": "54270cf85e821ad063f2b858acfa2d5d71e5e88c5d31b89a188566b8299cbc94"
+              }
+            ],
+            "ownSourceInputs": 41,
+            "observedAdapterRows": 123,
+            "sourceIds": [
+              "Morris2002-original",
+              "Morris2005-correction"
+            ],
+            "scope": "41 Decimal160 probability witnesses for the explicitly printed 2002 coefficient 0.282. The 2005 0.2815 correction is recorded separately and has not been applied.",
+            "status": "bounded2002-equation-confirmed; later-correction-needed-for2005-attribution",
+            "findings": [
+              {
+                "classification": "later-primary-correction-not-applied",
+                "beforeCoefficient": "0.282",
+                "corrected2005Coefficient": "0.2815",
+                "detail": "Current arithmetic matches printed 2002 edition, not the corrected 2005 equation. Preserve edition history and do not present as individual prenatal risk."
+              }
+            ],
+            "unchecked": [
+              "Individual/gestational risk and contemporary screening calibration"
+            ],
+            "clinicalApproval": "not-performed",
+            "professionalTranslationApproval": "not-performed",
+            "rightsApproval": "not-performed",
+            "fullMethodApproval": "not-performed"
+          },
+          "primarySources": []
+        },
+        "evidencePath": "reports/review-20261003/seven-primary-independent-source-check-final35.json",
+        "evidenceSha256": "dca93fed75cf2559c3ef39c581218fd9c4e604d0bbbcd787556bc8ef14590e85",
+        "independentPeer": {
+          "status": "pending-independent-package-peer",
+          "scope": "Western own primary derivation before imports and actual Node/VM/Chromium selected-math evidence; no new independent source rederivation claimed by this packaging preparation."
+        },
+        "implementations": [
+          {
+            "file": "apps/website/private/tool-code/risco-de-trissomia-21-pela-idade-materna/calculator.js",
+            "sha256": "54270cf85e821ad063f2b858acfa2d5d71e5e88c5d31b89a188566b8299cbc94"
+          },
+          {
+            "file": "apps/dashboard/private/tool-code/risco-de-trissomia-21-pela-idade-materna/calculator.js",
+            "sha256": "54270cf85e821ad063f2b858acfa2d5d71e5e88c5d31b89a188566b8299cbc94"
+          },
+          {
+            "file": "apps/command-center/private/tool-code/risco-de-trissomia-21-pela-idade-materna/calculator.js",
+            "sha256": "54270cf85e821ad063f2b858acfa2d5d71e5e88c5d31b89a188566b8299cbc94"
+          }
+        ],
+        "qualifications": [
+          "Individual/gestational risk and contemporary screening calibration",
+          "Source references/edition conflicts and raw parity/display observations preserved; no unscoped outputs or diagnosis/legal/forensic/follow-up decisions approved."
+        ],
+        "clinicalApproval": "not-performed",
+        "professionalLanguageApproval": "not-performed",
+        "sourceRightsApproval": "not-performed",
+        "fullMethodConformance": "not-performed",
+        "publicCandidateBankOmitted": true
+      },
+      "clinicalApproval": "not-performed",
+      "translationApproval": "not-performed",
+      "releaseApproval": "not-performed",
+      "implementationHash": "54270cf85e821ad063f2b858acfa2d5d71e5e88c5d31b89a188566b8299cbc94"
+    },
+    "limits": "Esta fórmula descreve prevalência de síndrome de Down em nascidos vivos, por idade materna, a partir de dados de Inglaterra e Gales de 1989–1998, estimando ausência de rastreio e interrupção seletiva. Não fornece risco em qualquer idade gestacional nem substitui rastreio ou diagnóstico individual.",
+    "sourceLimitEvidence": {
+      "checkedAt": "2026-10-04T02:52:03.129Z",
+      "scope": "Targeted source reading and authorial documentation, not full method or clinical approval.",
+      "sourceReviewFile": "remaining-native-population-limits-review.json",
+      "sourceReviewSha256": "ba61a9b120a338c518c34ba9f324558b12580e7f5371ea81304b030b45ea44a5",
+      "readingOutcome": "review-outcome-recorded",
+      "unresolved": [
+        "Não incorpora biomarcadores, ultrassom, cariótipo ou histórico individual; populações/épocas diferentes não foram validadas neste resumo."
+      ],
+      "fullMethodConformanceReviewed": false,
+      "clinicalApproval": "not-performed",
+      "professionalLanguageApproval": "not-performed"
     }
   },
-  "review": {
-    "status": "needs-review",
-    "reason": "Revisão documental e clínica independente pendente.",
-    "clinicalValidation": "not-performed"
+  "currentSource": {
+    "file": "apps/website/private/tool-code/risco-de-trissomia-21-pela-idade-materna/calculator.js",
+    "bytes": 4842,
+    "sha256": "54270cf85e821ad063f2b858acfa2d5d71e5e88c5d31b89a188566b8299cbc94"
   },
-  "clinicalValidation": "not-performed"
+  "sourceToolSha256": "40c70f7a1eda435d3aeb57158b0580c7c9e20938abb2920abe5d95aa6c56539e",
+  "omittedFullReferenceBanks": [
+    {
+      "rows": 4,
+      "sha256": "2097e498a57a66a067623f00f6d8cafa44eb8f0d9bbd6e5a3d9a560185a80947",
+      "reason": "Large independent reference bank not bundled; exact evidence scope and file references retained"
+    },
+    {
+      "rows": 4,
+      "sha256": "2097e498a57a66a067623f00f6d8cafa44eb8f0d9bbd6e5a3d9a560185a80947",
+      "reason": "Large independent reference bank not bundled; exact evidence scope and file references retained"
+    }
+  ],
+  "clinicalApproval": "not-performed",
+  "professionalLanguageApproval": "not-performed",
+  "sourceRightsApproval": "not-performed"
 }
