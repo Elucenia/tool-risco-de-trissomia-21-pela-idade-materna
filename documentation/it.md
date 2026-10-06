@@ -59,3 +59,40 @@ Risultato della formula o classificazione. Interpretazione, condotta e applicabi
 Apache-2.0 si applica solo al codice di ELUCENIA. I diritti su strumenti, pubblicazioni, traduzioni e dati restano ai rispettivi titolari. Conservi LICENSE e NOTICE.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Risultati documentati
+
+Le informazioni seguenti conservano gli output del metodo per esempi sintetici. Non costituiscono una validazione clinica indipendente.
+
+### 1
+
+Rischio basale (a priori) a 35 anni: 0,28%
+
+| Dettagli del risultato | |
+| --- | --- |
+| Probabilità | 0,283% |
+
+È il rischio di partenza: lo screening combinato o il NIPT lo modificano verso l’alto o verso il basso.
+
+
+### 2
+
+Rischio basale (a priori) a 40 anni: 1,16%
+
+| Dettagli del risultato | |
+| --- | --- |
+| Probabilità | 1,164% |
+
+È il rischio di partenza: lo screening combinato o il NIPT lo modificano verso l’alto o verso il basso.
+
+
+### 3
+
+Rischio basale (a priori) a 25 anni: 0,07%
+
+| Dettagli del risultato | |
+| --- | --- |
+| Probabilità | 0,075% |
+
+È il rischio di partenza: lo screening combinato o il NIPT lo modificano verso l’alto o verso il basso.
+

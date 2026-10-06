@@ -59,3 +59,40 @@ Résultat de la formule ou de la classification. L’interprétation, la conduit
 Apache-2.0 s’applique uniquement au code d’ELUCENIA. Les droits sur les instruments, publications, traductions et données restent ceux de leurs titulaires respectifs. Conservez LICENSE et NOTICE.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Résultats documentés
+
+Les informations ci-dessous conservent les sorties de la méthode pour des exemples synthétiques. Elles ne constituent pas une validation clinique indépendante.
+
+### 1
+
+Risque de base (a priori) à 35 ans : 0,28%
+
+| Détails du résultat | |
+| --- | --- |
+| Probabilité | 0,283% |
+
+C’est le risque de départ : le dépistage combiné ou le NIPT le modifient à la hausse ou à la baisse.
+
+
+### 2
+
+Risque de base (a priori) à 40 ans : 1,16%
+
+| Détails du résultat | |
+| --- | --- |
+| Probabilité | 1,164% |
+
+C’est le risque de départ : le dépistage combiné ou le NIPT le modifient à la hausse ou à la baisse.
+
+
+### 3
+
+Risque de base (a priori) à 25 ans : 0,07%
+
+| Détails du résultat | |
+| --- | --- |
+| Probabilité | 0,075% |
+
+C’est le risque de départ : le dépistage combiné ou le NIPT le modifient à la hausse ou à la baisse.
+

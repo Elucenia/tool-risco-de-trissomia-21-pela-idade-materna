@@ -1,6 +1,6 @@
 {
   "id": "risco-de-trissomia-21-pela-idade-materna",
-  "scope": "Exclusive report-owned R6-HTTP-linked candidate, read-only default test",
+  "scope": "Immutable package integrity; tests write no files",
   "files": [
     {
       "path": ".gitattributes",
@@ -24,8 +24,8 @@
     },
     {
       "path": "calculator.browser.js",
-      "bytes": 4842,
-      "sha256": "54270cf85e821ad063f2b858acfa2d5d71e5e88c5d31b89a188566b8299cbc94"
+      "bytes": 5047,
+      "sha256": "0029b564ee8bc84657ff50e06072a93bf640b36ae2fc037cd520470c0f04b23b"
     },
     {
       "path": "calculator.js",
@@ -39,8 +39,8 @@
     },
     {
       "path": "CODE-COMPONENTS.md",
-      "bytes": 1145,
-      "sha256": "c561fb937bd4daae576faec02bd1f3510db58fe54026646880099a0d6e9f845c"
+      "bytes": 1414,
+      "sha256": "f5e0d3a4b5409d244a447f839522aeec0c468144d205905d2a7329fa415fbac8"
     },
     {
       "path": "CONTRIBUTING.md",
@@ -49,68 +49,78 @@
     },
     {
       "path": "demo-runtime.js",
-      "bytes": 11656,
-      "sha256": "734da1ceff19b961423e1bb5d2c9eaafd18920b32cc4f331856f6065c9cfd2c9"
+      "bytes": 14286,
+      "sha256": "187cb0a3f2693707660f7fc69fc63ce5e30055a5ccdc621cc7945a0d3b1d2918"
     },
     {
       "path": "documentation/ar.md",
-      "bytes": 3715,
-      "sha256": "1dd52823c079e29b4ff44a6ca8aa224008c265f1816cb5939d21b4f87dace4e0"
+      "bytes": 4762,
+      "sha256": "6aa44458e0aaf130ee89ad9d3833a72f6ab16775b13d65d4145af2b34409dc96"
     },
     {
       "path": "documentation/de.md",
-      "bytes": 3123,
-      "sha256": "35d8fbc64efbc41f9b7d3bb81006138dc19079dbd89773d4a73d4f089de4c83f"
+      "bytes": 4007,
+      "sha256": "9d70e099b938655da4dc318020ab6f286b16c2d9ed94d5c9c571abb2570acc80"
     },
     {
       "path": "documentation/en.md",
-      "bytes": 2704,
-      "sha256": "2d69b88d1f7bb823f7834fac3e6a582799072c2e0dfb4f84aba8a5ba07f3a115"
+      "bytes": 3456,
+      "sha256": "2757234df616d4544a646b9be683ef98fdfdd6d4aaffb472acf36a6fd2b4066a"
     },
     {
       "path": "documentation/es.md",
-      "bytes": 3023,
-      "sha256": "74ad116f0f5018d903e001f04a510411b3bfe31844ee7f691d828e8c580f2d58"
+      "bytes": 3861,
+      "sha256": "af9e1ebc1d58d446ed52f80390d297347bb3eae2bbb15d06a6cfe9bc8662660a"
     },
     {
       "path": "documentation/fr.md",
-      "bytes": 3187,
-      "sha256": "215d87a4c5e85f754cbf30ec3afa2eb12698dba9e7d4142cb8dd16fbd601ed78"
+      "bytes": 4071,
+      "sha256": "c60c302e6a943775f9050ef532f87b97fb97290079aefaa0439650f38394ea89"
     },
     {
       "path": "documentation/hi.md",
-      "bytes": 5305,
-      "sha256": "903f2eead6f291d3e5f4f70976eefe80918522faa0074f8ea228e159fca1c653"
+      "bytes": 6919,
+      "sha256": "b57c8b930846773b9559f08107385fa4128cb804fb124eec7719bd711676d4cc"
     },
     {
       "path": "documentation/it.md",
-      "bytes": 2964,
-      "sha256": "767bc9b269e07bdc89c8f78f8548dcee903fd14ce6c7b2b216e5394b5803e5f2"
+      "bytes": 3817,
+      "sha256": "b859822e605dcd3dbfaed7033401ca18c69e422a0344e4926595dd8ae6955642"
     },
     {
       "path": "documentation/ja.md",
-      "bytes": 3217,
-      "sha256": "a39e11b18decab994d7b66e7def8d1dc7881df3af22637e06442a0ec726f4f94"
+      "bytes": 4130,
+      "sha256": "bd89e57795e5d62ed566cb8bbfcd0270805059f993a0138a96db6db2c7a50829"
     },
     {
       "path": "documentation/pt-BR.md",
-      "bytes": 2869,
-      "sha256": "cfeaf96c15c6ab104d5b6b9776a55f50658760ef1b0c08ff8fdd78fda6efadc7"
+      "bytes": 3683,
+      "sha256": "b80a615b4fee7d28940b7618f20b904a10d16e8c261e8013641de2a58eb98a6f"
     },
     {
       "path": "documentation/zh.md",
-      "bytes": 2416,
-      "sha256": "e158e07dc76c6b6a40361d72496125286f5ff727445178863f2974b0867cf066"
+      "bytes": 3062,
+      "sha256": "5c286de547e886c51c610097a5e3d1a3a7c0be08bb2ce402f9e35560087fe0a2"
+    },
+    {
+      "path": "documented-result-examples.json",
+      "bytes": 37803,
+      "sha256": "52a126a5ae10fd4b087fb35b9c8e792b279c32360df59583aa98e9204af04089"
     },
     {
       "path": "engine/tool-code/risco-de-trissomia-21-pela-idade-materna/calculator.js",
-      "bytes": 4842,
-      "sha256": "54270cf85e821ad063f2b858acfa2d5d71e5e88c5d31b89a188566b8299cbc94"
+      "bytes": 5047,
+      "sha256": "0029b564ee8bc84657ff50e06072a93bf640b36ae2fc037cd520470c0f04b23b"
     },
     {
       "path": "evidence/publication-base-reference.json",
       "bytes": 2858,
       "sha256": "e06a3a206c7cffa1eb9eea0f0235ad3b6d1232246acf6ac0f9d17b42e1f68249"
+    },
+    {
+      "path": "evidence/publication-provenance-before-output-contract.json",
+      "bytes": 11998,
+      "sha256": "b9daa4c5d2f2a3b7676f8b56877d045a6292a476b93e2224079ed15bf2b72a22"
     },
     {
       "path": "evidence/served-http-r6.json",
@@ -134,8 +144,8 @@
     },
     {
       "path": "localization.js",
-      "bytes": 39129,
-      "sha256": "d14f241f9393d221c6701d74d95ca8e09931404b4262ba81fa63b5e18c725eef"
+      "bytes": 47951,
+      "sha256": "f8df1bb70bdd78788417e5e2ae63e3d7509847acf6a8acc25a642d173794e293"
     },
     {
       "path": "METHOD-CODE-LICENSE.txt",
@@ -154,23 +164,23 @@
     },
     {
       "path": "package.json",
-      "bytes": 423,
-      "sha256": "6ec9c449518f781c39e7e1b456864d1ef574061a444dab359579f3613a232136"
+      "bytes": 517,
+      "sha256": "57ce8071712a8dac1a50d41c49fc01e8744db3e5053be8e47b4ff601f02f6422"
     },
     {
       "path": "portal-formatters.browser.js",
-      "bytes": 31300,
-      "sha256": "d8522ffe0b858012dfd25e5e8d10fe2eefec977f2bdb612be5cbadf5c4bed9f3"
+      "bytes": 38687,
+      "sha256": "cf0668f6fd44a80a3e4064915cf2da02d2203a9596bd39a9a0a6025fb12e17f4"
     },
     {
       "path": "publication-provenance.json",
-      "bytes": 11998,
-      "sha256": "b9daa4c5d2f2a3b7676f8b56877d045a6292a476b93e2224079ed15bf2b72a22"
+      "bytes": 6487,
+      "sha256": "70476566e3b2278d0c35757f9eaa6b7ea5978be83cd44a873cb1e13819229c4b"
     },
     {
       "path": "README.md",
-      "bytes": 3398,
-      "sha256": "6b9ebe9b95d6c9c8a6b315649301eed9e8da2478a313b69b028310a67096538b"
+      "bytes": 4004,
+      "sha256": "1549d38dc9a0aff99667566cc05036cf1a0f7885835c775d3d6759c3c34ce434"
     },
     {
       "path": "rejections.json",
@@ -188,9 +198,24 @@
       "sha256": "3c20d46e436116be0c673f0260b24bbc2193fafbd15fb4659bf0e545b452487e"
     },
     {
+      "path": "source-result-contract.json",
+      "bytes": 6056,
+      "sha256": "7783c85127dab17f097fa1b831416707000608ee88b8942af7ded25b281ad0fb"
+    },
+    {
       "path": "SOURCE-RIGHTS-REVIEW.md",
       "bytes": 1578,
       "sha256": "235fa31916be1012ee6e9902daf97ec2d3307c6463123baa223006c7c447708d"
+    },
+    {
+      "path": "test-presentation-contract.cjs",
+      "bytes": 1923,
+      "sha256": "a4a1734ea3d00c17ffeed7abbd605663459b7c190b695d2396cc58da93215cec"
+    },
+    {
+      "path": "test-source-result-contract.cjs",
+      "bytes": 1416,
+      "sha256": "cbadaf0576ecc2884c7523902880d2068e3a9b6b63df418359ab42219af2e386"
     },
     {
       "path": "test.cjs",
@@ -199,8 +224,8 @@
     },
     {
       "path": "tool.json",
-      "bytes": 21577,
-      "sha256": "f47129cbd5976fe9574527915ee634d6212833287320af7c7f263fffa48ca14a"
+      "bytes": 23098,
+      "sha256": "76886bf7954bc65e06c211c7ac6085dd8482c7fe7bf0084ccf9f0ca914bf9a86"
     }
   ]
 }

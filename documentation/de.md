@@ -59,3 +59,40 @@ Ergebnis der Formel oder Klassifikation. Interpretation, Vorgehen und Anwendbark
 Apache-2.0 gilt nur für den ELUCENIA-Code. Die Rechte an Instrumenten, Veröffentlichungen, Übersetzungen und Daten verbleiben bei den jeweiligen Rechteinhabern. Bewahren Sie LICENSE und NOTICE auf.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Dokumentierte Ergebnisse
+
+Die folgenden Angaben bewahren die Ausgaben der Methode für synthetische Beispiele. Sie stellen keine unabhängige klinische Validierung dar.
+
+### 1
+
+Basisrisiko (a priori) im Alter von 35 Jahren: 0,28%
+
+| Ergebnisdetails | |
+| --- | --- |
+| Wahrscheinlichkeit | 0,283% |
+
+Dies ist das Ausgangsrisiko: Das kombinierte Screening oder der NIPT verändern es nach oben oder unten.
+
+
+### 2
+
+Basisrisiko (a priori) im Alter von 40 Jahren: 1,16%
+
+| Ergebnisdetails | |
+| --- | --- |
+| Wahrscheinlichkeit | 1,164% |
+
+Dies ist das Ausgangsrisiko: Das kombinierte Screening oder der NIPT verändern es nach oben oder unten.
+
+
+### 3
+
+Basisrisiko (a priori) im Alter von 25 Jahren: 0,07%
+
+| Ergebnisdetails | |
+| --- | --- |
+| Wahrscheinlichkeit | 0,075% |
+
+Dies ist das Ausgangsrisiko: Das kombinierte Screening oder der NIPT verändern es nach oben oder unten.
+

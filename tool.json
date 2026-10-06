@@ -204,7 +204,7 @@
       "publicCandidateBankOmitted": true
     },
     "methodVersion": "Morris Mutton Alberman 2002:logístico inglês/galêsnascimentovivo 1989–1998; semrisco gestacional universal",
-    "implementationVersion": "risco-de-trissomia-21-pela-idade-materna@native-2026-10-03+54270cf85e82",
+    "implementationVersion": "risco-de-trissomia-21-pela-idade-materna@native-2026-10-05+0029b564ee8b",
     "currentMethodSource": "https://pubmed.ncbi.nlm.nih.gov/11943789/",
     "versionEvidence": {
       "status": "variant-and-source-edition-recorded",
@@ -379,7 +379,35 @@
       "clinicalApproval": "not-performed",
       "translationApproval": "not-performed",
       "releaseApproval": "not-performed",
-      "implementationHash": "54270cf85e821ad063f2b858acfa2d5d71e5e88c5d31b89a188566b8299cbc94"
+      "implementationHash": "0029b564ee8bc84657ff50e06072a93bf640b36ae2fc037cd520470c0f04b23b",
+      "documentedOutputContract": {
+        "fields": [
+          "level",
+          "verdict",
+          "rows",
+          "note"
+        ],
+        "scope": "Optional documented outputs already produced by the existing scientific method; no new classification or treatment decision.",
+        "sourceExposureReceipt": {
+          "file": "reports/review-20261005-completion/native-result-presentation-r1/applied-output-r1/receipt.json",
+          "sha256": "ad5471530e501b906b966463cef1eb20e9745ac745fc30fb85d3ec4db2a333c3"
+        },
+        "scientificBodiesUnchanged": true,
+        "clinicalApproval": "not-performed",
+        "professionalLanguageApproval": "not-performed"
+      },
+      "technicalBindingHistory": [
+        {
+          "recordedAt": "2026-10-05T23:55:42.176Z",
+          "scope": "Expose existing documented result fields; scientific body and complete input contract unchanged.",
+          "previousImplementationVersion": "risco-de-trissomia-21-pela-idade-materna@native-2026-10-03+54270cf85e82",
+          "previousImplementationHash": "54270cf85e821ad063f2b858acfa2d5d71e5e88c5d31b89a188566b8299cbc94",
+          "implementationHash": "0029b564ee8bc84657ff50e06072a93bf640b36ae2fc037cd520470c0f04b23b",
+          "scientificBodySha256": "587d1f551ac191907259aa0602fb714f30740f3c1bc491267d93ab10760433ea",
+          "metadataContractHash": "7aa24a7caf6ebd3de08cc67eba0295218ad21a7eba3d5e57b2f3efbbfea4599e",
+          "exposureReceiptSha256": "ad5471530e501b906b966463cef1eb20e9745ac745fc30fb85d3ec4db2a333c3"
+        }
+      ]
     },
     "limits": "Esta fórmula descreve prevalência de síndrome de Down em nascidos vivos, por idade materna, a partir de dados de Inglaterra e Gales de 1989–1998, estimando ausência de rastreio e interrupção seletiva. Não fornece risco em qualquer idade gestacional nem substitui rastreio ou diagnóstico individual.",
     "sourceLimitEvidence": {
@@ -398,20 +426,20 @@
   },
   "currentSource": {
     "file": "apps/website/private/tool-code/risco-de-trissomia-21-pela-idade-materna/calculator.js",
-    "bytes": 4842,
-    "sha256": "54270cf85e821ad063f2b858acfa2d5d71e5e88c5d31b89a188566b8299cbc94"
+    "bytes": 5047,
+    "sha256": "0029b564ee8bc84657ff50e06072a93bf640b36ae2fc037cd520470c0f04b23b"
   },
-  "sourceToolSha256": "40c70f7a1eda435d3aeb57158b0580c7c9e20938abb2920abe5d95aa6c56539e",
+  "sourceToolSha256": "53047ec692c9ecb90b2fe5ee653ae5c7981e3fc9608319643aab3505baf9c7ed",
   "omittedFullReferenceBanks": [
     {
       "rows": 4,
       "sha256": "2097e498a57a66a067623f00f6d8cafa44eb8f0d9bbd6e5a3d9a560185a80947",
-      "reason": "Large independent reference bank not bundled; exact evidence scope and file references retained"
+      "reason": "Large independent reference bank not bundled; historical proof scope retained"
     },
     {
       "rows": 4,
       "sha256": "2097e498a57a66a067623f00f6d8cafa44eb8f0d9bbd6e5a3d9a560185a80947",
-      "reason": "Large independent reference bank not bundled; exact evidence scope and file references retained"
+      "reason": "Large independent reference bank not bundled; historical proof scope retained"
     }
   ],
   "clinicalApproval": "not-performed",

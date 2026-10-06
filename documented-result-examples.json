@@ -1,0 +1,1146 @@
+{
+  "id": "risco-de-trissomia-21-pela-idade-materna",
+  "implementationVersion": "risco-de-trissomia-21-pela-idade-materna@native-2026-10-05+0029b564ee8b",
+  "scope": "Rendered current output against the same source method; not an independent numerical/clinical oracle",
+  "locales": {
+    "pt-BR": [
+      {
+        "name": "35 anos: e^0,6289 = 1,875; 4,211 ÷ 2,875 = 1,464; e^5,866 = 352,7 → 1 em 354",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Probabilidade",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "0,283%",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Risco basal (a priori) aos 35 anos: 0,28%",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "note": {
+            "text": "É o risco de partida: o rastreamento combinado ou o NIPT o modificam para cima ou para baixo.",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "info"
+        }
+      },
+      {
+        "name": "40 anos: e^−0,7811 = 0,4579; 4,211 ÷ 1,4579 = 2,888; e^4,442 = 84,9 → 1 em 86",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Probabilidade",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "1,164%",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Risco basal (a priori) aos 40 anos: 1,16%",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "note": {
+            "text": "É o risco de partida: o rastreamento combinado ou o NIPT o modificam para cima ou para baixo.",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "info"
+        }
+      },
+      {
+        "name": "25 anos: e^3,4489 = 31,46; 4,211 ÷ 32,46 = 0,1297; e^7,2003 = 1.339,8 → 1 em 1.341",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Probabilidade",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              },
+              "value": {
+                "text": "0,075%",
+                "locale": "pt-BR",
+                "template": "documented-source"
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Risco basal (a priori) aos 25 anos: 0,07%",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "note": {
+            "text": "É o risco de partida: o rastreamento combinado ou o NIPT o modificam para cima ou para baixo.",
+            "locale": "pt-BR",
+            "template": "documented-source"
+          },
+          "level": "info"
+        }
+      }
+    ],
+    "en": [
+      {
+        "name": "35 anos: e^0,6289 = 1,875; 4,211 ÷ 2,875 = 1,464; e^5,866 = 352,7 → 1 em 354",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Probability",
+                "locale": "en",
+                "template": "documented-authored-d540ab5ab98b1ebfdee8"
+              },
+              "value": {
+                "text": "0.283%",
+                "locale": "en",
+                "template": "documented-authored-c63b1db95ea75389dc36",
+                "sourceNumbers": [
+                  0.283
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Baseline risk (a priori) at 35 years: 0.28%",
+            "locale": "en",
+            "template": "documented-authored-dbec7c101727a572f3d1",
+            "sourceNumbers": [
+              35,
+              0.28
+            ]
+          },
+          "note": {
+            "text": "This is the starting risk: combined screening or NIPT modify it upward or downward.",
+            "locale": "en",
+            "template": "documented-authored-7032854ef8feea0cb7ff"
+          },
+          "level": "info"
+        }
+      },
+      {
+        "name": "40 anos: e^−0,7811 = 0,4579; 4,211 ÷ 1,4579 = 2,888; e^4,442 = 84,9 → 1 em 86",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Probability",
+                "locale": "en",
+                "template": "documented-authored-d540ab5ab98b1ebfdee8"
+              },
+              "value": {
+                "text": "1.164%",
+                "locale": "en",
+                "template": "documented-authored-c63b1db95ea75389dc36",
+                "sourceNumbers": [
+                  1.164
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Baseline risk (a priori) at 40 years: 1.16%",
+            "locale": "en",
+            "template": "documented-authored-dbec7c101727a572f3d1",
+            "sourceNumbers": [
+              40,
+              1.16
+            ]
+          },
+          "note": {
+            "text": "This is the starting risk: combined screening or NIPT modify it upward or downward.",
+            "locale": "en",
+            "template": "documented-authored-7032854ef8feea0cb7ff"
+          },
+          "level": "info"
+        }
+      },
+      {
+        "name": "25 anos: e^3,4489 = 31,46; 4,211 ÷ 32,46 = 0,1297; e^7,2003 = 1.339,8 → 1 em 1.341",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Probability",
+                "locale": "en",
+                "template": "documented-authored-d540ab5ab98b1ebfdee8"
+              },
+              "value": {
+                "text": "0.075%",
+                "locale": "en",
+                "template": "documented-authored-c63b1db95ea75389dc36",
+                "sourceNumbers": [
+                  0.075
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Baseline risk (a priori) at 25 years: 0.07%",
+            "locale": "en",
+            "template": "documented-authored-dbec7c101727a572f3d1",
+            "sourceNumbers": [
+              25,
+              0.07
+            ]
+          },
+          "note": {
+            "text": "This is the starting risk: combined screening or NIPT modify it upward or downward.",
+            "locale": "en",
+            "template": "documented-authored-7032854ef8feea0cb7ff"
+          },
+          "level": "info"
+        }
+      }
+    ],
+    "es": [
+      {
+        "name": "35 anos: e^0,6289 = 1,875; 4,211 ÷ 2,875 = 1,464; e^5,866 = 352,7 → 1 em 354",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Probabilidad",
+                "locale": "es",
+                "template": "documented-authored-d540ab5ab98b1ebfdee8"
+              },
+              "value": {
+                "text": "0,283%",
+                "locale": "es",
+                "template": "documented-authored-c63b1db95ea75389dc36",
+                "sourceNumbers": [
+                  0.283
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Riesgo basal (a priori) a los 35 años: 0,28%",
+            "locale": "es",
+            "template": "documented-authored-dbec7c101727a572f3d1",
+            "sourceNumbers": [
+              35,
+              0.28
+            ]
+          },
+          "note": {
+            "text": "Es el riesgo de partida: el cribado combinado o el NIPT lo modifican hacia arriba o hacia abajo.",
+            "locale": "es",
+            "template": "documented-authored-7032854ef8feea0cb7ff"
+          },
+          "level": "info"
+        }
+      },
+      {
+        "name": "40 anos: e^−0,7811 = 0,4579; 4,211 ÷ 1,4579 = 2,888; e^4,442 = 84,9 → 1 em 86",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Probabilidad",
+                "locale": "es",
+                "template": "documented-authored-d540ab5ab98b1ebfdee8"
+              },
+              "value": {
+                "text": "1,164%",
+                "locale": "es",
+                "template": "documented-authored-c63b1db95ea75389dc36",
+                "sourceNumbers": [
+                  1.164
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Riesgo basal (a priori) a los 40 años: 1,16%",
+            "locale": "es",
+            "template": "documented-authored-dbec7c101727a572f3d1",
+            "sourceNumbers": [
+              40,
+              1.16
+            ]
+          },
+          "note": {
+            "text": "Es el riesgo de partida: el cribado combinado o el NIPT lo modifican hacia arriba o hacia abajo.",
+            "locale": "es",
+            "template": "documented-authored-7032854ef8feea0cb7ff"
+          },
+          "level": "info"
+        }
+      },
+      {
+        "name": "25 anos: e^3,4489 = 31,46; 4,211 ÷ 32,46 = 0,1297; e^7,2003 = 1.339,8 → 1 em 1.341",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Probabilidad",
+                "locale": "es",
+                "template": "documented-authored-d540ab5ab98b1ebfdee8"
+              },
+              "value": {
+                "text": "0,075%",
+                "locale": "es",
+                "template": "documented-authored-c63b1db95ea75389dc36",
+                "sourceNumbers": [
+                  0.075
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Riesgo basal (a priori) a los 25 años: 0,07%",
+            "locale": "es",
+            "template": "documented-authored-dbec7c101727a572f3d1",
+            "sourceNumbers": [
+              25,
+              0.07
+            ]
+          },
+          "note": {
+            "text": "Es el riesgo de partida: el cribado combinado o el NIPT lo modifican hacia arriba o hacia abajo.",
+            "locale": "es",
+            "template": "documented-authored-7032854ef8feea0cb7ff"
+          },
+          "level": "info"
+        }
+      }
+    ],
+    "fr": [
+      {
+        "name": "35 anos: e^0,6289 = 1,875; 4,211 ÷ 2,875 = 1,464; e^5,866 = 352,7 → 1 em 354",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Probabilité",
+                "locale": "fr",
+                "template": "documented-authored-d540ab5ab98b1ebfdee8"
+              },
+              "value": {
+                "text": "0,283%",
+                "locale": "fr",
+                "template": "documented-authored-c63b1db95ea75389dc36",
+                "sourceNumbers": [
+                  0.283
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Risque de base (a priori) à 35 ans : 0,28%",
+            "locale": "fr",
+            "template": "documented-authored-dbec7c101727a572f3d1",
+            "sourceNumbers": [
+              35,
+              0.28
+            ]
+          },
+          "note": {
+            "text": "C’est le risque de départ : le dépistage combiné ou le NIPT le modifient à la hausse ou à la baisse.",
+            "locale": "fr",
+            "template": "documented-authored-7032854ef8feea0cb7ff"
+          },
+          "level": "info"
+        }
+      },
+      {
+        "name": "40 anos: e^−0,7811 = 0,4579; 4,211 ÷ 1,4579 = 2,888; e^4,442 = 84,9 → 1 em 86",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Probabilité",
+                "locale": "fr",
+                "template": "documented-authored-d540ab5ab98b1ebfdee8"
+              },
+              "value": {
+                "text": "1,164%",
+                "locale": "fr",
+                "template": "documented-authored-c63b1db95ea75389dc36",
+                "sourceNumbers": [
+                  1.164
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Risque de base (a priori) à 40 ans : 1,16%",
+            "locale": "fr",
+            "template": "documented-authored-dbec7c101727a572f3d1",
+            "sourceNumbers": [
+              40,
+              1.16
+            ]
+          },
+          "note": {
+            "text": "C’est le risque de départ : le dépistage combiné ou le NIPT le modifient à la hausse ou à la baisse.",
+            "locale": "fr",
+            "template": "documented-authored-7032854ef8feea0cb7ff"
+          },
+          "level": "info"
+        }
+      },
+      {
+        "name": "25 anos: e^3,4489 = 31,46; 4,211 ÷ 32,46 = 0,1297; e^7,2003 = 1.339,8 → 1 em 1.341",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Probabilité",
+                "locale": "fr",
+                "template": "documented-authored-d540ab5ab98b1ebfdee8"
+              },
+              "value": {
+                "text": "0,075%",
+                "locale": "fr",
+                "template": "documented-authored-c63b1db95ea75389dc36",
+                "sourceNumbers": [
+                  0.075
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Risque de base (a priori) à 25 ans : 0,07%",
+            "locale": "fr",
+            "template": "documented-authored-dbec7c101727a572f3d1",
+            "sourceNumbers": [
+              25,
+              0.07
+            ]
+          },
+          "note": {
+            "text": "C’est le risque de départ : le dépistage combiné ou le NIPT le modifient à la hausse ou à la baisse.",
+            "locale": "fr",
+            "template": "documented-authored-7032854ef8feea0cb7ff"
+          },
+          "level": "info"
+        }
+      }
+    ],
+    "de": [
+      {
+        "name": "35 anos: e^0,6289 = 1,875; 4,211 ÷ 2,875 = 1,464; e^5,866 = 352,7 → 1 em 354",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Wahrscheinlichkeit",
+                "locale": "de",
+                "template": "documented-authored-d540ab5ab98b1ebfdee8"
+              },
+              "value": {
+                "text": "0,283%",
+                "locale": "de",
+                "template": "documented-authored-c63b1db95ea75389dc36",
+                "sourceNumbers": [
+                  0.283
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Basisrisiko (a priori) im Alter von 35 Jahren: 0,28%",
+            "locale": "de",
+            "template": "documented-authored-dbec7c101727a572f3d1",
+            "sourceNumbers": [
+              35,
+              0.28
+            ]
+          },
+          "note": {
+            "text": "Dies ist das Ausgangsrisiko: Das kombinierte Screening oder der NIPT verändern es nach oben oder unten.",
+            "locale": "de",
+            "template": "documented-authored-7032854ef8feea0cb7ff"
+          },
+          "level": "info"
+        }
+      },
+      {
+        "name": "40 anos: e^−0,7811 = 0,4579; 4,211 ÷ 1,4579 = 2,888; e^4,442 = 84,9 → 1 em 86",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Wahrscheinlichkeit",
+                "locale": "de",
+                "template": "documented-authored-d540ab5ab98b1ebfdee8"
+              },
+              "value": {
+                "text": "1,164%",
+                "locale": "de",
+                "template": "documented-authored-c63b1db95ea75389dc36",
+                "sourceNumbers": [
+                  1.164
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Basisrisiko (a priori) im Alter von 40 Jahren: 1,16%",
+            "locale": "de",
+            "template": "documented-authored-dbec7c101727a572f3d1",
+            "sourceNumbers": [
+              40,
+              1.16
+            ]
+          },
+          "note": {
+            "text": "Dies ist das Ausgangsrisiko: Das kombinierte Screening oder der NIPT verändern es nach oben oder unten.",
+            "locale": "de",
+            "template": "documented-authored-7032854ef8feea0cb7ff"
+          },
+          "level": "info"
+        }
+      },
+      {
+        "name": "25 anos: e^3,4489 = 31,46; 4,211 ÷ 32,46 = 0,1297; e^7,2003 = 1.339,8 → 1 em 1.341",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Wahrscheinlichkeit",
+                "locale": "de",
+                "template": "documented-authored-d540ab5ab98b1ebfdee8"
+              },
+              "value": {
+                "text": "0,075%",
+                "locale": "de",
+                "template": "documented-authored-c63b1db95ea75389dc36",
+                "sourceNumbers": [
+                  0.075
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Basisrisiko (a priori) im Alter von 25 Jahren: 0,07%",
+            "locale": "de",
+            "template": "documented-authored-dbec7c101727a572f3d1",
+            "sourceNumbers": [
+              25,
+              0.07
+            ]
+          },
+          "note": {
+            "text": "Dies ist das Ausgangsrisiko: Das kombinierte Screening oder der NIPT verändern es nach oben oder unten.",
+            "locale": "de",
+            "template": "documented-authored-7032854ef8feea0cb7ff"
+          },
+          "level": "info"
+        }
+      }
+    ],
+    "it": [
+      {
+        "name": "35 anos: e^0,6289 = 1,875; 4,211 ÷ 2,875 = 1,464; e^5,866 = 352,7 → 1 em 354",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Probabilità",
+                "locale": "it",
+                "template": "documented-authored-d540ab5ab98b1ebfdee8"
+              },
+              "value": {
+                "text": "0,283%",
+                "locale": "it",
+                "template": "documented-authored-c63b1db95ea75389dc36",
+                "sourceNumbers": [
+                  0.283
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Rischio basale (a priori) a 35 anni: 0,28%",
+            "locale": "it",
+            "template": "documented-authored-dbec7c101727a572f3d1",
+            "sourceNumbers": [
+              35,
+              0.28
+            ]
+          },
+          "note": {
+            "text": "È il rischio di partenza: lo screening combinato o il NIPT lo modificano verso l’alto o verso il basso.",
+            "locale": "it",
+            "template": "documented-authored-7032854ef8feea0cb7ff"
+          },
+          "level": "info"
+        }
+      },
+      {
+        "name": "40 anos: e^−0,7811 = 0,4579; 4,211 ÷ 1,4579 = 2,888; e^4,442 = 84,9 → 1 em 86",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Probabilità",
+                "locale": "it",
+                "template": "documented-authored-d540ab5ab98b1ebfdee8"
+              },
+              "value": {
+                "text": "1,164%",
+                "locale": "it",
+                "template": "documented-authored-c63b1db95ea75389dc36",
+                "sourceNumbers": [
+                  1.164
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Rischio basale (a priori) a 40 anni: 1,16%",
+            "locale": "it",
+            "template": "documented-authored-dbec7c101727a572f3d1",
+            "sourceNumbers": [
+              40,
+              1.16
+            ]
+          },
+          "note": {
+            "text": "È il rischio di partenza: lo screening combinato o il NIPT lo modificano verso l’alto o verso il basso.",
+            "locale": "it",
+            "template": "documented-authored-7032854ef8feea0cb7ff"
+          },
+          "level": "info"
+        }
+      },
+      {
+        "name": "25 anos: e^3,4489 = 31,46; 4,211 ÷ 32,46 = 0,1297; e^7,2003 = 1.339,8 → 1 em 1.341",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "Probabilità",
+                "locale": "it",
+                "template": "documented-authored-d540ab5ab98b1ebfdee8"
+              },
+              "value": {
+                "text": "0,075%",
+                "locale": "it",
+                "template": "documented-authored-c63b1db95ea75389dc36",
+                "sourceNumbers": [
+                  0.075
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "Rischio basale (a priori) a 25 anni: 0,07%",
+            "locale": "it",
+            "template": "documented-authored-dbec7c101727a572f3d1",
+            "sourceNumbers": [
+              25,
+              0.07
+            ]
+          },
+          "note": {
+            "text": "È il rischio di partenza: lo screening combinato o il NIPT lo modificano verso l’alto o verso il basso.",
+            "locale": "it",
+            "template": "documented-authored-7032854ef8feea0cb7ff"
+          },
+          "level": "info"
+        }
+      }
+    ],
+    "ar": [
+      {
+        "name": "35 anos: e^0,6289 = 1,875; 4,211 ÷ 2,875 = 1,464; e^5,866 = 352,7 → 1 em 354",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "الاحتمال",
+                "locale": "ar",
+                "template": "documented-authored-d540ab5ab98b1ebfdee8"
+              },
+              "value": {
+                "text": "٠٫٢٨٣%",
+                "locale": "ar",
+                "template": "documented-authored-c63b1db95ea75389dc36",
+                "sourceNumbers": [
+                  0.283
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "الخطر الأساسي (a priori) عند عمر ٣٥ سنة: ٠٫٢٨%",
+            "locale": "ar",
+            "template": "documented-authored-dbec7c101727a572f3d1",
+            "sourceNumbers": [
+              35,
+              0.28
+            ]
+          },
+          "note": {
+            "text": "إنه خطر البدء: الفحص المجمّع أو NIPT يعدّلانه صعودًا أو هبوطًا.",
+            "locale": "ar",
+            "template": "documented-authored-7032854ef8feea0cb7ff"
+          },
+          "level": "info"
+        }
+      },
+      {
+        "name": "40 anos: e^−0,7811 = 0,4579; 4,211 ÷ 1,4579 = 2,888; e^4,442 = 84,9 → 1 em 86",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "الاحتمال",
+                "locale": "ar",
+                "template": "documented-authored-d540ab5ab98b1ebfdee8"
+              },
+              "value": {
+                "text": "١٫١٦٤%",
+                "locale": "ar",
+                "template": "documented-authored-c63b1db95ea75389dc36",
+                "sourceNumbers": [
+                  1.164
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "الخطر الأساسي (a priori) عند عمر ٤٠ سنة: ١٫١٦%",
+            "locale": "ar",
+            "template": "documented-authored-dbec7c101727a572f3d1",
+            "sourceNumbers": [
+              40,
+              1.16
+            ]
+          },
+          "note": {
+            "text": "إنه خطر البدء: الفحص المجمّع أو NIPT يعدّلانه صعودًا أو هبوطًا.",
+            "locale": "ar",
+            "template": "documented-authored-7032854ef8feea0cb7ff"
+          },
+          "level": "info"
+        }
+      },
+      {
+        "name": "25 anos: e^3,4489 = 31,46; 4,211 ÷ 32,46 = 0,1297; e^7,2003 = 1.339,8 → 1 em 1.341",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "الاحتمال",
+                "locale": "ar",
+                "template": "documented-authored-d540ab5ab98b1ebfdee8"
+              },
+              "value": {
+                "text": "٠٫٠٧٥%",
+                "locale": "ar",
+                "template": "documented-authored-c63b1db95ea75389dc36",
+                "sourceNumbers": [
+                  0.075
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "الخطر الأساسي (a priori) عند عمر ٢٥ سنة: ٠٫٠٧%",
+            "locale": "ar",
+            "template": "documented-authored-dbec7c101727a572f3d1",
+            "sourceNumbers": [
+              25,
+              0.07
+            ]
+          },
+          "note": {
+            "text": "إنه خطر البدء: الفحص المجمّع أو NIPT يعدّلانه صعودًا أو هبوطًا.",
+            "locale": "ar",
+            "template": "documented-authored-7032854ef8feea0cb7ff"
+          },
+          "level": "info"
+        }
+      }
+    ],
+    "zh": [
+      {
+        "name": "35 anos: e^0,6289 = 1,875; 4,211 ÷ 2,875 = 1,464; e^5,866 = 352,7 → 1 em 354",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "概率",
+                "locale": "zh",
+                "template": "documented-authored-d540ab5ab98b1ebfdee8"
+              },
+              "value": {
+                "text": "0.283%",
+                "locale": "zh",
+                "template": "documented-authored-c63b1db95ea75389dc36",
+                "sourceNumbers": [
+                  0.283
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "35岁时的基线（先验）风险：0.28%",
+            "locale": "zh",
+            "template": "documented-authored-dbec7c101727a572f3d1",
+            "sourceNumbers": [
+              35,
+              0.28
+            ]
+          },
+          "note": {
+            "text": "这是起始风险：联合筛查或 NIPT 会将其上调或下调。",
+            "locale": "zh",
+            "template": "documented-authored-7032854ef8feea0cb7ff"
+          },
+          "level": "info"
+        }
+      },
+      {
+        "name": "40 anos: e^−0,7811 = 0,4579; 4,211 ÷ 1,4579 = 2,888; e^4,442 = 84,9 → 1 em 86",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "概率",
+                "locale": "zh",
+                "template": "documented-authored-d540ab5ab98b1ebfdee8"
+              },
+              "value": {
+                "text": "1.164%",
+                "locale": "zh",
+                "template": "documented-authored-c63b1db95ea75389dc36",
+                "sourceNumbers": [
+                  1.164
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "40岁时的基线（先验）风险：1.16%",
+            "locale": "zh",
+            "template": "documented-authored-dbec7c101727a572f3d1",
+            "sourceNumbers": [
+              40,
+              1.16
+            ]
+          },
+          "note": {
+            "text": "这是起始风险：联合筛查或 NIPT 会将其上调或下调。",
+            "locale": "zh",
+            "template": "documented-authored-7032854ef8feea0cb7ff"
+          },
+          "level": "info"
+        }
+      },
+      {
+        "name": "25 anos: e^3,4489 = 31,46; 4,211 ÷ 32,46 = 0,1297; e^7,2003 = 1.339,8 → 1 em 1.341",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "概率",
+                "locale": "zh",
+                "template": "documented-authored-d540ab5ab98b1ebfdee8"
+              },
+              "value": {
+                "text": "0.075%",
+                "locale": "zh",
+                "template": "documented-authored-c63b1db95ea75389dc36",
+                "sourceNumbers": [
+                  0.075
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "25岁时的基线（先验）风险：0.07%",
+            "locale": "zh",
+            "template": "documented-authored-dbec7c101727a572f3d1",
+            "sourceNumbers": [
+              25,
+              0.07
+            ]
+          },
+          "note": {
+            "text": "这是起始风险：联合筛查或 NIPT 会将其上调或下调。",
+            "locale": "zh",
+            "template": "documented-authored-7032854ef8feea0cb7ff"
+          },
+          "level": "info"
+        }
+      }
+    ],
+    "ja": [
+      {
+        "name": "35 anos: e^0,6289 = 1,875; 4,211 ÷ 2,875 = 1,464; e^5,866 = 352,7 → 1 em 354",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "確率",
+                "locale": "ja",
+                "template": "documented-authored-d540ab5ab98b1ebfdee8"
+              },
+              "value": {
+                "text": "0.283%",
+                "locale": "ja",
+                "template": "documented-authored-c63b1db95ea75389dc36",
+                "sourceNumbers": [
+                  0.283
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "35歳でのベースライン（a priori）リスク：0.28%",
+            "locale": "ja",
+            "template": "documented-authored-dbec7c101727a572f3d1",
+            "sourceNumbers": [
+              35,
+              0.28
+            ]
+          },
+          "note": {
+            "text": "これは出発時のリスクです。併用スクリーニングまたはNIPTにより上下に変動します。",
+            "locale": "ja",
+            "template": "documented-authored-7032854ef8feea0cb7ff"
+          },
+          "level": "info"
+        }
+      },
+      {
+        "name": "40 anos: e^−0,7811 = 0,4579; 4,211 ÷ 1,4579 = 2,888; e^4,442 = 84,9 → 1 em 86",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "確率",
+                "locale": "ja",
+                "template": "documented-authored-d540ab5ab98b1ebfdee8"
+              },
+              "value": {
+                "text": "1.164%",
+                "locale": "ja",
+                "template": "documented-authored-c63b1db95ea75389dc36",
+                "sourceNumbers": [
+                  1.164
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "40歳でのベースライン（a priori）リスク：1.16%",
+            "locale": "ja",
+            "template": "documented-authored-dbec7c101727a572f3d1",
+            "sourceNumbers": [
+              40,
+              1.16
+            ]
+          },
+          "note": {
+            "text": "これは出発時のリスクです。併用スクリーニングまたはNIPTにより上下に変動します。",
+            "locale": "ja",
+            "template": "documented-authored-7032854ef8feea0cb7ff"
+          },
+          "level": "info"
+        }
+      },
+      {
+        "name": "25 anos: e^3,4489 = 31,46; 4,211 ÷ 32,46 = 0,1297; e^7,2003 = 1.339,8 → 1 em 1.341",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "確率",
+                "locale": "ja",
+                "template": "documented-authored-d540ab5ab98b1ebfdee8"
+              },
+              "value": {
+                "text": "0.075%",
+                "locale": "ja",
+                "template": "documented-authored-c63b1db95ea75389dc36",
+                "sourceNumbers": [
+                  0.075
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "25歳でのベースライン（a priori）リスク：0.07%",
+            "locale": "ja",
+            "template": "documented-authored-dbec7c101727a572f3d1",
+            "sourceNumbers": [
+              25,
+              0.07
+            ]
+          },
+          "note": {
+            "text": "これは出発時のリスクです。併用スクリーニングまたはNIPTにより上下に変動します。",
+            "locale": "ja",
+            "template": "documented-authored-7032854ef8feea0cb7ff"
+          },
+          "level": "info"
+        }
+      }
+    ],
+    "hi": [
+      {
+        "name": "35 anos: e^0,6289 = 1,875; 4,211 ÷ 2,875 = 1,464; e^5,866 = 352,7 → 1 em 354",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "संभावना",
+                "locale": "hi",
+                "template": "documented-authored-d540ab5ab98b1ebfdee8"
+              },
+              "value": {
+                "text": "0.283%",
+                "locale": "hi",
+                "template": "documented-authored-c63b1db95ea75389dc36",
+                "sourceNumbers": [
+                  0.283
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "35 वर्ष की आयु पर आधारभूत (a priori) जोखिम: 0.28%",
+            "locale": "hi",
+            "template": "documented-authored-dbec7c101727a572f3d1",
+            "sourceNumbers": [
+              35,
+              0.28
+            ]
+          },
+          "note": {
+            "text": "यह प्रारंभिक जोखिम है: संयुक्त स्क्रीनिंग या NIPT इसे ऊपर या नीचे संशोधित करते हैं।",
+            "locale": "hi",
+            "template": "documented-authored-7032854ef8feea0cb7ff"
+          },
+          "level": "info"
+        }
+      },
+      {
+        "name": "40 anos: e^−0,7811 = 0,4579; 4,211 ÷ 1,4579 = 2,888; e^4,442 = 84,9 → 1 em 86",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "संभावना",
+                "locale": "hi",
+                "template": "documented-authored-d540ab5ab98b1ebfdee8"
+              },
+              "value": {
+                "text": "1.164%",
+                "locale": "hi",
+                "template": "documented-authored-c63b1db95ea75389dc36",
+                "sourceNumbers": [
+                  1.164
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "40 वर्ष की आयु पर आधारभूत (a priori) जोखिम: 1.16%",
+            "locale": "hi",
+            "template": "documented-authored-dbec7c101727a572f3d1",
+            "sourceNumbers": [
+              40,
+              1.16
+            ]
+          },
+          "note": {
+            "text": "यह प्रारंभिक जोखिम है: संयुक्त स्क्रीनिंग या NIPT इसे ऊपर या नीचे संशोधित करते हैं।",
+            "locale": "hi",
+            "template": "documented-authored-7032854ef8feea0cb7ff"
+          },
+          "level": "info"
+        }
+      },
+      {
+        "name": "25 anos: e^3,4489 = 31,46; 4,211 ÷ 32,46 = 0,1297; e^7,2003 = 1.339,8 → 1 em 1.341",
+        "output": {
+          "rows": [
+            {
+              "key": "documented-0",
+              "label": {
+                "text": "संभावना",
+                "locale": "hi",
+                "template": "documented-authored-d540ab5ab98b1ebfdee8"
+              },
+              "value": {
+                "text": "0.075%",
+                "locale": "hi",
+                "template": "documented-authored-c63b1db95ea75389dc36",
+                "sourceNumbers": [
+                  0.075
+                ]
+              }
+            }
+          ],
+          "verdict": {
+            "text": "25 वर्ष की आयु पर आधारभूत (a priori) जोखिम: 0.07%",
+            "locale": "hi",
+            "template": "documented-authored-dbec7c101727a572f3d1",
+            "sourceNumbers": [
+              25,
+              0.07
+            ]
+          },
+          "note": {
+            "text": "यह प्रारंभिक जोखिम है: संयुक्त स्क्रीनिंग या NIPT इसे ऊपर या नीचे संशोधित करते हैं।",
+            "locale": "hi",
+            "template": "documented-authored-7032854ef8feea0cb7ff"
+          },
+          "level": "info"
+        }
+      }
+    ]
+  }
+}

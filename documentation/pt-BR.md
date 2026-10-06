@@ -59,3 +59,40 @@ Resultado da fórmula ou classificação. Interpretação, conduta e aplicabilid
 Apache-2.0 aplica-se somente ao código da ELUCENIA. Os instrumentos, publicações, traduções e dados mantêm os direitos dos respectivos titulares. Preserve LICENSE e NOTICE.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Resultados documentados
+
+As informações abaixo preservam as saídas do método para exemplos sintéticos. Não constituem validação clínica independente.
+
+### 1
+
+Risco basal (a priori) aos 35 anos: 0,28%
+
+| Detalhes do resultado | |
+| --- | --- |
+| Probabilidade | 0,283% |
+
+É o risco de partida: o rastreamento combinado ou o NIPT o modificam para cima ou para baixo.
+
+
+### 2
+
+Risco basal (a priori) aos 40 anos: 1,16%
+
+| Detalhes do resultado | |
+| --- | --- |
+| Probabilidade | 1,164% |
+
+É o risco de partida: o rastreamento combinado ou o NIPT o modificam para cima ou para baixo.
+
+
+### 3
+
+Risco basal (a priori) aos 25 anos: 0,07%
+
+| Detalhes do resultado | |
+| --- | --- |
+| Probabilidade | 0,075% |
+
+É o risco de partida: o rastreamento combinado ou o NIPT o modificam para cima ou para baixo.
+

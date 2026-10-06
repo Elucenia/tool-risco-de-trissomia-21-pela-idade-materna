@@ -59,3 +59,40 @@ Resultado de la fórmula o clasificación. La interpretación, la conducta y la 
 Apache-2.0 se aplica únicamente al código de ELUCENIA. Los derechos de los instrumentos, publicaciones, traducciones y datos permanecen en manos de sus respectivos titulares. Conserve LICENSE y NOTICE.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Resultados documentados
+
+La información siguiente conserva las salidas del método para ejemplos sintéticos. No constituye una validación clínica independiente.
+
+### 1
+
+Riesgo basal (a priori) a los 35 años: 0,28%
+
+| Detalles del resultado | |
+| --- | --- |
+| Probabilidad | 0,283% |
+
+Es el riesgo de partida: el cribado combinado o el NIPT lo modifican hacia arriba o hacia abajo.
+
+
+### 2
+
+Riesgo basal (a priori) a los 40 años: 1,16%
+
+| Detalles del resultado | |
+| --- | --- |
+| Probabilidad | 1,164% |
+
+Es el riesgo de partida: el cribado combinado o el NIPT lo modifican hacia arriba o hacia abajo.
+
+
+### 3
+
+Riesgo basal (a priori) a los 25 años: 0,07%
+
+| Detalles del resultado | |
+| --- | --- |
+| Probabilidad | 0,075% |
+
+Es el riesgo de partida: el cribado combinado o el NIPT lo modifican hacia arriba o hacia abajo.
+

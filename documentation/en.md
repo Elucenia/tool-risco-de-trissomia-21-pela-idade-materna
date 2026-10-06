@@ -59,3 +59,40 @@ Formula or classification result. Interpretation, care and applicability depend 
 Apache-2.0 applies only to ELUCENIA code. Rights to instruments, publications, translations and data remain with their respective holders. Preserve LICENSE and NOTICE.
 
 ELUCENIA · Felipe Guedes · Copyright © 2026
+
+## Documented results
+
+The information below preserves the method outputs for synthetic examples. It does not constitute independent clinical validation.
+
+### 1
+
+Baseline risk (a priori) at 35 years: 0.28%
+
+| Result details | |
+| --- | --- |
+| Probability | 0.283% |
+
+This is the starting risk: combined screening or NIPT modify it upward or downward.
+
+
+### 2
+
+Baseline risk (a priori) at 40 years: 1.16%
+
+| Result details | |
+| --- | --- |
+| Probability | 1.164% |
+
+This is the starting risk: combined screening or NIPT modify it upward or downward.
+
+
+### 3
+
+Baseline risk (a priori) at 25 years: 0.07%
+
+| Result details | |
+| --- | --- |
+| Probability | 0.075% |
+
+This is the starting risk: combined screening or NIPT modify it upward or downward.
+
